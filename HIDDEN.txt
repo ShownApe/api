@@ -225,39 +225,6 @@ Property: Attributes, Value Type: string
 Property: AttributesSerialize, Value Type: string
 Property: World Pivot Orientation, Value Type: vector
 
-ClassName: LocalScript
-Property: CachedRemoteSource, Value Type: string
-Property: Tags, Value Type: string
-Property: ScriptGuid, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: IsDifferentFromFileSystem, Value Type: boolean
-Property: Attributes, Value Type: string
-Property: CachedRemoteSourceLoadState, Value Type: number
-Property: HasAssociatedDrafts, Value Type: boolean
-Property: AttributesSerialize, Value Type: string
-
-ClassName: StringValue
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: Animation
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: AttributesSerialize, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-
-ClassName: NumberValue
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: Humanoid
 Property: InternalBodyScale, Value Type: vector
 Property: InternalOriginalHipHeight, Value Type: number
@@ -319,13 +286,6 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: CharacterMesh
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: Shirt
 Property: Outfit1, Value Type: string
 Property: Attributes, Value Type: string
@@ -344,14 +304,6 @@ Property: AttributesSerialize, Value Type: string
 Property: Outfit2, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: Accessory
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: BackendAccoutrementState, Value Type: number
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: SpecialMesh
 Property: numExpectedDirectChildren, Value Type: number
 Property: Attributes, Value Type: string
@@ -368,14 +320,7 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: Vector3Value
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: Weld
+ClassName: Decal
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
@@ -391,6 +336,28 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
+ClassName: Accessory
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: BackendAccoutrementState, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: StringValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Vector3Value
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
 ClassName: Sound
 Property: Tags, Value Type: string
 Property: TimePositionReplicator, Value Type: number
@@ -402,7 +369,33 @@ Property: xmlRead_MaxDistance_3, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: xmlRead_MinDistance_3, Value Type: number
 
-ClassName: Decal
+ClassName: LocalScript
+Property: CachedRemoteSource, Value Type: string
+Property: Tags, Value Type: string
+Property: ScriptGuid, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: IsDifferentFromFileSystem, Value Type: boolean
+Property: Attributes, Value Type: string
+Property: CachedRemoteSourceLoadState, Value Type: number
+Property: HasAssociatedDrafts, Value Type: boolean
+Property: AttributesSerialize, Value Type: string
+
+ClassName: Animation
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: NumberValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Weld
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
@@ -424,6 +417,64 @@ Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
 ClassName: CFrameValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: MeshPart
+Property: InitialSize, Value Type: vector
+Property: DraggingV1, Value Type: boolean
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: AttributesReplicate, Value Type: string
+Property: MeshID, Value Type: string
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: AttributesSerialize, Value Type: string
+Property: size, Value Type: vector
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: LODData, Value Type: string
+Property: PhysicsData, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: RenderFidelityReplicate, Value Type: userdata
+Property: Pivot Offset Position, Value Type: vector
+Property: Tags, Value Type: string
+
+ClassName: WrapTarget
+Property: TemporaryCageMeshId, Value Type: string
+Property: Tags, Value Type: string
+Property: Color, Value Type: userdata
+Property: HSRAssetId, Value Type: string
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: DebugMode, Value Type: userdata
+
+ClassName: BindableFunction
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Tool
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RemoteEvent
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ShirtGraphic
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
@@ -730,20 +781,6 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: Tool
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: RemoteEvent
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: PointsService
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
@@ -933,13 +970,6 @@ Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
 ClassName: SelectionBox
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: BindableFunction
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
@@ -1393,6 +1423,20 @@ Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
 ClassName: TextBoxService
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: AnimationFromVideoCreatorService
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: AppUpdateService
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
