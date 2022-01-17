@@ -225,6 +225,38 @@ Property: Attributes, Value Type: string
 Property: AttributesSerialize, Value Type: string
 Property: World Pivot Orientation, Value Type: vector
 
+ClassName: SpecialMesh
+Property: numExpectedDirectChildren, Value Type: number
+Property: Attributes, Value Type: string
+Property: LODX, Value Type: userdata
+Property: Tags, Value Type: string
+Property: LODY, Value Type: userdata
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Decal
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Attachment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Motor6D
+Property: ChildName, Value Type: string
+Property: ParentName, Value Type: string
+Property: Tags, Value Type: string
+Property: Attributes, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
 ClassName: Humanoid
 Property: InternalBodyScale, Value Type: vector
 Property: InternalOriginalHipHeight, Value Type: number
@@ -279,6 +311,50 @@ Property: EmotesDataInternal, Value Type: string
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
+ClassName: Sound
+Property: Tags, Value Type: string
+Property: TimePositionReplicator, Value Type: number
+Property: PlayingReplicator, Value Type: boolean
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: xmlRead_MaxDistance_3, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: xmlRead_MinDistance_3, Value Type: number
+
+ClassName: LocalScript
+Property: CachedRemoteSource, Value Type: string
+Property: Tags, Value Type: string
+Property: ScriptGuid, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: IsDifferentFromFileSystem, Value Type: boolean
+Property: Attributes, Value Type: string
+Property: CachedRemoteSourceLoadState, Value Type: number
+Property: HasAssociatedDrafts, Value Type: boolean
+Property: AttributesSerialize, Value Type: string
+
+ClassName: StringValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Animation
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: NumberValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
 ClassName: BodyColors
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
@@ -304,49 +380,10 @@ Property: AttributesSerialize, Value Type: string
 Property: Outfit2, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: SpecialMesh
-Property: numExpectedDirectChildren, Value Type: number
-Property: Attributes, Value Type: string
-Property: LODX, Value Type: userdata
-Property: Tags, Value Type: string
-Property: LODY, Value Type: userdata
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: Attachment
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: Decal
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: Motor6D
-Property: ChildName, Value Type: string
-Property: ParentName, Value Type: string
-Property: Tags, Value Type: string
-Property: Attributes, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: Accessory
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: BackendAccoutrementState, Value Type: number
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: StringValue
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
@@ -358,65 +395,7 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: Sound
-Property: Tags, Value Type: string
-Property: TimePositionReplicator, Value Type: number
-Property: PlayingReplicator, Value Type: boolean
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: Attributes, Value Type: string
-Property: xmlRead_MaxDistance_3, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: xmlRead_MinDistance_3, Value Type: number
-
-ClassName: LocalScript
-Property: CachedRemoteSource, Value Type: string
-Property: Tags, Value Type: string
-Property: ScriptGuid, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: IsDifferentFromFileSystem, Value Type: boolean
-Property: Attributes, Value Type: string
-Property: CachedRemoteSourceLoadState, Value Type: number
-Property: HasAssociatedDrafts, Value Type: boolean
-Property: AttributesSerialize, Value Type: string
-
-ClassName: Animation
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: AttributesSerialize, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-
-ClassName: NumberValue
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: Weld
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: Configuration
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: ObjectValue
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: CFrameValue
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
@@ -474,7 +453,1549 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
+ClassName: VoiceChannel
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Configuration
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ObjectValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CFrameValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Accoutrement
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: BackendAccoutrementState, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Hat
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: BackendAccoutrementState, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CurveAnimation
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: KeyframeSequence
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: AnimationController
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: AnimationRigData
+Property: transform, Value Type: string
+Property: preTransform, Value Type: string
+Property: Tags, Value Type: string
+Property: parent, Value Type: string
+Property: postTransform, Value Type: string
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: name, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: label, Value Type: string
+
+ClassName: Atmosphere
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Backpack
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: HopperBin
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Flag
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Beam
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BindableEvent
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BodyAngularVelocity
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BodyForce
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BodyGyro
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BodyPosition
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BodyThrust
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BodyVelocity
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RocketPropulsion
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: Active, Value Type: boolean
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CharacterMesh
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
 ClassName: ShirtGraphic
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Skin
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Clouds
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: AlignOrientation
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: AlignPosition
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: AngularVelocity
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BallSocketConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: MaxFrictionTorqueXml, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: HingeConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: LineForce
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: LinearVelocity
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Plane
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RigidConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RodConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RopeConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CylindricalConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: PrismaticConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SpringConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Torque
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: TorsionSpringConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UniversalConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: VectorForce
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: HumanoidController
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SkateboardController
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: VehicleController
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CustomEvent
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: PersistedCurrentValue, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CustomEventReceiver
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BlockMesh
+Property: LODY, Value Type: userdata
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: LODX, Value Type: userdata
+Property: Bevel Roundness, Value Type: number
+Property: Bulge, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: Bevel, Value Type: number
+
+ClassName: CylinderMesh
+Property: LODY, Value Type: userdata
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: LODX, Value Type: userdata
+Property: Bevel Roundness, Value Type: number
+Property: Bulge, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: Bevel, Value Type: number
+
+ClassName: FileMesh
+Property: numExpectedDirectChildren, Value Type: number
+Property: Attributes, Value Type: string
+Property: LODX, Value Type: userdata
+Property: LODY, Value Type: userdata
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: DataStoreIncrementOptions
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: DataStoreOptions
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: DataStoreSetOptions
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Dialog
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: DialogChoice
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: EulerRotationCurve
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: WeldConstraint
+Property: CFrame1, Value Type: userdata
+Property: Tags, Value Type: string
+Property: CFrame0, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: State, Value Type: number
+Property: Attributes, Value Type: string
+Property: AttributesSerialize, Value Type: string
+
+ClassName: FaceControls
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Texture
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Hole
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: MotorFeature
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Fire
+Property: numExpectedDirectChildren, Value Type: number
+Property: Attributes, Value Type: string
+Property: heat_xml, Value Type: number
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: size_xml, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: FloatCurve
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: ValuesAndTimes, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ForceField
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: FunctionalTest
+Property: AllowSleep, Value Type: boolean
+Property: Timeout, Value Type: number
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: PhysicsEnvironmentalThrottle, Value Type: boolean
+Property: HasMigratedSettingsToTestService, Value Type: boolean
+Property: Is30FpsThrottleEnabled, Value Type: boolean
+Property: AttributesSerialize, Value Type: string
+Property: Attributes, Value Type: string
+
+ClassName: CanvasGroup
+Property: Tags, Value Type: string
+Property: MouseWheelForwardConnectionCount, Value Type: number
+Property: DragBeginConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: MouseEnterConnectionCount, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: Attributes, Value Type: string
+Property: DragStoppedConnectionCount, Value Type: number
+Property: MouseMovedConnectionCount, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: MouseWheelBackwardConnectionCount, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: ReplicatedInsertionOrder, Value Type: number
+
+ClassName: ImageButton
+Property: MouseButton2ClickConnectionCount, Value Type: number
+Property: MouseWheelForwardConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: MouseEnterConnectionCount, Value Type: number
+Property: MouseMovedConnectionCount, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: ReplicatedInsertionOrder, Value Type: number
+Property: MouseButton2DownConnectionCount, Value Type: number
+Property: MouseButton2UpConnectionCount, Value Type: number
+Property: Tags, Value Type: string
+Property: DragBeginConnectionCount, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: MouseButton1ClickConnectionCount, Value Type: number
+Property: DragStoppedConnectionCount, Value Type: number
+Property: MouseButton1DownConnectionCount, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: MouseWheelBackwardConnectionCount, Value Type: number
+Property: MouseButton1UpConnectionCount, Value Type: number
+Property: Attributes, Value Type: string
+
+ClassName: TextButton
+Property: MouseButton2ClickConnectionCount, Value Type: number
+Property: MouseButton1DownConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: MouseButton1UpConnectionCount, Value Type: number
+Property: DragStoppedConnectionCount, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: ReplicatedInsertionOrder, Value Type: number
+Property: MouseButton2DownConnectionCount, Value Type: number
+Property: MouseButton2UpConnectionCount, Value Type: number
+Property: Tags, Value Type: string
+Property: DragBeginConnectionCount, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: MouseMovedConnectionCount, Value Type: number
+Property: MouseButton1ClickConnectionCount, Value Type: number
+Property: MouseEnterConnectionCount, Value Type: number
+Property: MouseWheelForwardConnectionCount, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: MouseWheelBackwardConnectionCount, Value Type: number
+Property: Confidential, Value Type: boolean
+Property: Attributes, Value Type: string
+
+ClassName: TextBox
+Property: numExpectedDirectChildren, Value Type: number
+Property: Tags, Value Type: string
+Property: MouseWheelForwardConnectionCount, Value Type: number
+Property: DragBeginConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: DragStoppedConnectionCount, Value Type: number
+Property: MouseMovedConnectionCount, Value Type: number
+Property: Attributes, Value Type: string
+Property: MouseEnterConnectionCount, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: MouseWheelBackwardConnectionCount, Value Type: number
+Property: Confidential, Value Type: boolean
+Property: ReplicatedInsertionOrder, Value Type: number
+
+ClassName: VideoFrame
+Property: numExpectedDirectChildren, Value Type: number
+Property: DragStoppedConnectionCount, Value Type: number
+Property: TimePositionReplicating, Value Type: number
+Property: MouseWheelForwardConnectionCount, Value Type: number
+Property: DragBeginConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: PlayingReplicating, Value Type: boolean
+Property: Attributes, Value Type: string
+Property: MouseMovedConnectionCount, Value Type: number
+Property: Tags, Value Type: string
+Property: MouseEnterConnectionCount, Value Type: number
+Property: MouseWheelBackwardConnectionCount, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: ReplicatedInsertionOrder, Value Type: number
+
+ClassName: ViewportFrame
+Property: CameraCFrame, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: Tags, Value Type: string
+Property: MouseWheelForwardConnectionCount, Value Type: number
+Property: DragBeginConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: DragStoppedConnectionCount, Value Type: number
+Property: CameraFieldOfView, Value Type: number
+Property: MouseMovedConnectionCount, Value Type: number
+Property: Attributes, Value Type: string
+Property: MouseEnterConnectionCount, Value Type: number
+Property: MouseWheelBackwardConnectionCount, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: ReplicatedInsertionOrder, Value Type: number
+
+ClassName: BillboardGui
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: ReplicatedInsertionOrder, Value Type: number
+
+ClassName: ScreenGui
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: ReplicatedInsertionOrder, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: GuiMain
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: ReplicatedInsertionOrder, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: FloorWire
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SelectionBox
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BoxHandleAdornment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ConeHandleAdornment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CylinderHandleAdornment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ImageHandleAdornment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: LineHandleAdornment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SphereHandleAdornment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ParabolaAdornment
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SelectionSphere
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ArcHandles
+Property: Tags, Value Type: string
+Property: MouseButton1DownConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: MouseButton1UpConnectionCount, Value Type: number
+Property: Attributes, Value Type: string
+Property: MouseDragConnectionCount, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: MouseEnterConnectionCount, Value Type: number
+
+ClassName: Handles
+Property: Tags, Value Type: string
+Property: MouseButton1DownConnectionCount, Value Type: number
+Property: MouseLeaveConnectionCount, Value Type: number
+Property: MouseButton1UpConnectionCount, Value Type: number
+Property: Attributes, Value Type: string
+Property: MouseDragConnectionCount, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: MouseEnterConnectionCount, Value Type: number
+
+ClassName: SurfaceSelection
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SelectionPartLasso
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SelectionPointLasso
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: HiddenSurfaceRemovalAsset
+Property: HSRData, Value Type: string
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: HSRMeshIdData, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Highlight
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RotateP
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RotateV
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Glue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ManualGlue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ManualWeld
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Motor
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Rotate
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Snap
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: VelocityMotor
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Keyframe
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: KeyframeMarker
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: PointLight
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SpotLight
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: LocalizationTable
+Property: AttributesSerialize, Value Type: string
+Property: Contents, Value Type: string
+Property: Tags, Value Type: string
+Property: IsExemptFromUGCAnalytics, Value Type: boolean
+Property: Attributes, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Script
+Property: CachedRemoteSource, Value Type: string
+Property: Tags, Value Type: string
+Property: ScriptGuid, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: IsDifferentFromFileSystem, Value Type: boolean
+Property: Attributes, Value Type: string
+Property: CachedRemoteSourceLoadState, Value Type: number
+Property: HasAssociatedDrafts, Value Type: boolean
+Property: AttributesSerialize, Value Type: string
+
+ClassName: ModuleScript
+Property: CachedRemoteSource, Value Type: string
+Property: Tags, Value Type: string
+Property: ScriptGuid, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: IsDifferentFromFileSystem, Value Type: boolean
+Property: Attributes, Value Type: string
+Property: CachedRemoteSourceLoadState, Value Type: number
+Property: HasAssociatedDrafts, Value Type: boolean
+Property: AttributesSerialize, Value Type: string
+Property: Confidential, Value Type: boolean
+
+ClassName: MarkerCurve
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: ValuesAndTimes, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: MaterialVariant
+Property: TexturePack0, Value Type: string
+Property: Tags, Value Type: string
+Property: AvgRoughness, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: AvgMetalness, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: TexturePack1, Value Type: string
+Property: AttributesSerialize, Value Type: string
+
+ClassName: Message
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Hint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: NoCollisionConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CornerWedgePart
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: DraggingV1, Value Type: boolean
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: Pivot Offset Position, Value Type: vector
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: size, Value Type: vector
+
+ClassName: FlagStand
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: Tags, Value Type: string
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Pivot Offset Position, Value Type: vector
+Property: AttributesSerialize, Value Type: string
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: formFactorRaw, Value Type: userdata
+Property: DraggingV1, Value Type: boolean
+Property: shape, Value Type: userdata
+Property: size, Value Type: vector
+
+ClassName: SkateboardPlatform
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: Tags, Value Type: string
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: Pivot Offset Position, Value Type: vector
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: DraggingV1, Value Type: boolean
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: formFactorRaw, Value Type: userdata
+Property: MoveState, Value Type: userdata
+Property: shape, Value Type: userdata
+Property: size, Value Type: vector
+
+ClassName: SpawnLocation
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: Tags, Value Type: string
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: Pivot Offset Position, Value Type: vector
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: formFactorRaw, Value Type: userdata
+Property: DraggingV1, Value Type: boolean
+Property: shape, Value Type: userdata
+Property: size, Value Type: vector
+
+ClassName: WedgePart
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: DraggingV1, Value Type: boolean
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Pivot Offset Position, Value Type: vector
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: formFactorRaw, Value Type: userdata
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: size, Value Type: vector
+
+ClassName: PartOperation
+Property: InitialSize, Value Type: vector
+Property: DraggingV1, Value Type: boolean
+Property: ChildData, Value Type: string
+Property: AttributesReplicate, Value Type: string
+Property: AssetId, Value Type: string
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: AttributesSerialize, Value Type: string
+Property: size, Value Type: vector
+Property: FormFactor, Value Type: userdata
+Property: MeshData, Value Type: string
+Property: Pivot Offset Orientation, Value Type: vector
+Property: LODData, Value Type: string
+Property: PhysicsData, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: Pivot Offset Position, Value Type: vector
+Property: Origin Position, Value Type: vector
+Property: Tags, Value Type: string
+Property: NetworkOwnershipRule, Value Type: userdata
+
+ClassName: NegateOperation
+Property: InitialSize, Value Type: vector
+Property: DraggingV1, Value Type: boolean
+Property: ChildData, Value Type: string
+Property: AttributesReplicate, Value Type: string
+Property: AssetId, Value Type: string
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: AttributesSerialize, Value Type: string
+Property: size, Value Type: vector
+Property: FormFactor, Value Type: userdata
+Property: MeshData, Value Type: string
+Property: Pivot Offset Orientation, Value Type: vector
+Property: LODData, Value Type: string
+Property: PhysicsData, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: Pivot Offset Position, Value Type: vector
+Property: Origin Position, Value Type: vector
+Property: Tags, Value Type: string
+Property: NetworkOwnershipRule, Value Type: userdata
+
+ClassName: TrussPart
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: Tags, Value Type: string
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: style, Value Type: userdata
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: DraggingV1, Value Type: boolean
+Property: Pivot Offset Position, Value Type: vector
+Property: AttributesSerialize, Value Type: string
+Property: size, Value Type: vector
+
+ClassName: VehicleSeat
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: DraggingV1, Value Type: boolean
+Property: NetworkOwnershipRule, Value Type: userdata
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: Origin Orientation, Value Type: vector
+Property: Tags, Value Type: string
+Property: Pivot Offset Position, Value Type: vector
+Property: AttributesSerialize, Value Type: string
+Property: size, Value Type: vector
+
+ClassName: Actor
+Property: NeedsPivotMigration, Value Type: boolean
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: Tags, Value Type: string
+Property: Pivot Offset Position, Value Type: vector
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+Property: ModelMeshCFrame, Value Type: userdata
+Property: World Pivot Position, Value Type: vector
+Property: Origin Orientation, Value Type: vector
+Property: ModelMeshSize, Value Type: vector
+Property: Attributes, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: World Pivot Orientation, Value Type: vector
+
+ClassName: WorldModel
+Property: NeedsPivotMigration, Value Type: boolean
+Property: Origin Position, Value Type: vector
+Property: Pivot Offset Orientation, Value Type: vector
+Property: Tags, Value Type: string
+Property: Pivot Offset Position, Value Type: vector
+Property: World Pivot Orientation, Value Type: vector
+Property: AttributesReplicate, Value Type: string
+Property: Attributes, Value Type: string
+Property: ModelMeshCFrame, Value Type: userdata
+Property: Origin Orientation, Value Type: vector
+Property: ModelMeshSize, Value Type: vector
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: World Pivot Position, Value Type: vector
+
+ClassName: PartOperationAsset
+Property: MeshData, Value Type: string
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: ChildData, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ParticleEmitter
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: PathfindingLink
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: PathfindingModifier
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: NumberPose
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Pose
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BloomEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BlurEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ColorCorrectionEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: DepthOfFieldEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SunRaysEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ProximityPrompt
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RemoteFunction
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RenderingTest
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RotationCurve
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: ValuesAndTimes, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Sky
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Smoke
+Property: numExpectedDirectChildren, Value Type: number
+Property: riseVelocity_xml, Value Type: number
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: opacity_xml, Value Type: number
+Property: size_xml, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ChorusSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: CompressorSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ChannelSelectorSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: DistortionSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: EchoSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: EqualizerSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: FlangeSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: PitchShiftSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: ReverbSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: TremoloSoundEffect
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SoundGroup
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Sparkles
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Speaker
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: StandalonePluginScripts
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: StarterGear
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SurfaceAppearance
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Team
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: TeleportOptions
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: TerrainRegion
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: SmoothGrid, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: TextChannel
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Trail
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Tween
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIAspectRatioConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UISizeConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: AttributesSerialize, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UITextSizeConstraint
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UICorner
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIGradient
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIGridLayout
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIListLayout
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIPageLayout
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UITableLayout
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIPadding
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIScale
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: UIStroke
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BinaryStringValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: Value, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BoolValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: BrickColorValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Color3Value
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: DoubleConstrainedValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: value, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: IntConstrainedValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: value, Value Type: number
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: IntValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: RayValue
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: Vector3Curve
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
@@ -586,47 +2107,6 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: ModuleScript
-Property: CachedRemoteSource, Value Type: string
-Property: Tags, Value Type: string
-Property: ScriptGuid, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: IsDifferentFromFileSystem, Value Type: boolean
-Property: Attributes, Value Type: string
-Property: CachedRemoteSourceLoadState, Value Type: number
-Property: HasAssociatedDrafts, Value Type: boolean
-Property: AttributesSerialize, Value Type: string
-Property: Confidential, Value Type: boolean
-
-ClassName: Script
-Property: CachedRemoteSource, Value Type: string
-Property: Tags, Value Type: string
-Property: ScriptGuid, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: IsDifferentFromFileSystem, Value Type: boolean
-Property: Attributes, Value Type: string
-Property: CachedRemoteSourceLoadState, Value Type: number
-Property: HasAssociatedDrafts, Value Type: boolean
-Property: AttributesSerialize, Value Type: string
-
-ClassName: LocalizationTable
-Property: AttributesSerialize, Value Type: string
-Property: Contents, Value Type: string
-Property: Tags, Value Type: string
-Property: IsExemptFromUGCAnalytics, Value Type: boolean
-Property: Attributes, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-
-ClassName: BoolValue
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: MarketplaceService
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
@@ -678,109 +2158,6 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: ScreenGui
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: ReplicatedInsertionOrder, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: TextBox
-Property: numExpectedDirectChildren, Value Type: number
-Property: Tags, Value Type: string
-Property: MouseWheelForwardConnectionCount, Value Type: number
-Property: DragBeginConnectionCount, Value Type: number
-Property: MouseLeaveConnectionCount, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: DragStoppedConnectionCount, Value Type: number
-Property: MouseMovedConnectionCount, Value Type: number
-Property: Attributes, Value Type: string
-Property: MouseEnterConnectionCount, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: MouseWheelBackwardConnectionCount, Value Type: number
-Property: Confidential, Value Type: boolean
-Property: ReplicatedInsertionOrder, Value Type: number
-
-ClassName: TextButton
-Property: MouseButton2ClickConnectionCount, Value Type: number
-Property: MouseButton1DownConnectionCount, Value Type: number
-Property: MouseLeaveConnectionCount, Value Type: number
-Property: MouseButton1UpConnectionCount, Value Type: number
-Property: DragStoppedConnectionCount, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: ReplicatedInsertionOrder, Value Type: number
-Property: MouseButton2DownConnectionCount, Value Type: number
-Property: MouseButton2UpConnectionCount, Value Type: number
-Property: Tags, Value Type: string
-Property: DragBeginConnectionCount, Value Type: number
-Property: numExpectedDirectChildren, Value Type: number
-Property: MouseMovedConnectionCount, Value Type: number
-Property: MouseButton1ClickConnectionCount, Value Type: number
-Property: MouseEnterConnectionCount, Value Type: number
-Property: MouseWheelForwardConnectionCount, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: MouseWheelBackwardConnectionCount, Value Type: number
-Property: Confidential, Value Type: boolean
-Property: Attributes, Value Type: string
-
-ClassName: ImageButton
-Property: MouseButton2ClickConnectionCount, Value Type: number
-Property: MouseWheelForwardConnectionCount, Value Type: number
-Property: MouseLeaveConnectionCount, Value Type: number
-Property: MouseEnterConnectionCount, Value Type: number
-Property: MouseMovedConnectionCount, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: ReplicatedInsertionOrder, Value Type: number
-Property: MouseButton2DownConnectionCount, Value Type: number
-Property: MouseButton2UpConnectionCount, Value Type: number
-Property: Tags, Value Type: string
-Property: DragBeginConnectionCount, Value Type: number
-Property: numExpectedDirectChildren, Value Type: number
-Property: MouseButton1ClickConnectionCount, Value Type: number
-Property: DragStoppedConnectionCount, Value Type: number
-Property: MouseButton1DownConnectionCount, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: MouseWheelBackwardConnectionCount, Value Type: number
-Property: MouseButton1UpConnectionCount, Value Type: number
-Property: Attributes, Value Type: string
-
-ClassName: UIListLayout
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: BillboardGui
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: AttributesSerialize, Value Type: string
-Property: ReplicatedInsertionOrder, Value Type: number
-
-ClassName: UIPadding
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: StarterGear
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: Backpack
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: PointsService
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
@@ -808,22 +2185,6 @@ Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
-
-ClassName: Actor
-Property: NeedsPivotMigration, Value Type: boolean
-Property: Origin Position, Value Type: vector
-Property: Pivot Offset Orientation, Value Type: vector
-Property: Tags, Value Type: string
-Property: Pivot Offset Position, Value Type: vector
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-Property: ModelMeshCFrame, Value Type: userdata
-Property: World Pivot Position, Value Type: vector
-Property: Origin Orientation, Value Type: vector
-Property: ModelMeshSize, Value Type: vector
-Property: Attributes, Value Type: string
-Property: AttributesSerialize, Value Type: string
-Property: World Pivot Orientation, Value Type: vector
 
 ClassName: HttpRbxApiService
 Property: Attributes, Value Type: string
@@ -919,62 +2280,6 @@ Property: Attributes, Value Type: string
 Property: CachedRemoteSourceLoadState, Value Type: number
 Property: HasAssociatedDrafts, Value Type: boolean
 Property: AttributesSerialize, Value Type: string
-
-ClassName: BindableEvent
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: UIGridLayout
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: UITextSizeConstraint
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: UIScale
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: UIAspectRatioConstraint
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: AttributesSerialize, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-
-ClassName: UISizeConstraint
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: AttributesSerialize, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesReplicate, Value Type: string
-
-ClassName: UICorner
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: SelectionBox
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
 
 ClassName: LocalizationService
 Property: GameSourceLanguageId, Value Type: string
@@ -1247,13 +2552,6 @@ Property: numExpectedDirectChildren, Value Type: number
 Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
-ClassName: HumanoidController
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
 ClassName: CorePackages
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
@@ -1276,13 +2574,6 @@ Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
 ClassName: RobloxReplicatedStorage
-Property: Attributes, Value Type: string
-Property: Tags, Value Type: string
-Property: numExpectedDirectChildren, Value Type: number
-Property: AttributesSerialize, Value Type: string
-Property: AttributesReplicate, Value Type: string
-
-ClassName: RemoteFunction
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
@@ -1437,6 +2728,13 @@ Property: AttributesSerialize, Value Type: string
 Property: AttributesReplicate, Value Type: string
 
 ClassName: AppUpdateService
+Property: Attributes, Value Type: string
+Property: Tags, Value Type: string
+Property: numExpectedDirectChildren, Value Type: number
+Property: AttributesSerialize, Value Type: string
+Property: AttributesReplicate, Value Type: string
+
+ClassName: SpawnerService
 Property: Attributes, Value Type: string
 Property: Tags, Value Type: string
 Property: numExpectedDirectChildren, Value Type: number
