@@ -1,0 +1,2565 @@
+all instances, not all functions as some are hidden from the api dump
+--[[||Instance||
+
+ClearAllChildren, args: 0 
+Clone, args: 0 
+Destroy, args: 0 
+FindFirstAncestor, args: 1 
+FindFirstAncestorOfClass, args: 1 
+FindFirstAncestorWhichIsA, args: 1 
+FindFirstChild, args: 2 
+FindFirstChildOfClass, args: 1 
+FindFirstChildWhichIsA, args: 2 
+FindFirstDescendant, args: 1 
+GetActor, args: 0 
+GetAttribute, args: 1 
+GetAttributeChangedSignal, args: 1 
+GetAttributes, args: 0 
+GetChildren, args: 0 
+GetDebugId, args: 1 
+GetDescendants, args: 0 
+GetFullName, args: 0 
+GetPropertyChangedSignal, args: 1 
+IsA, args: 1 
+IsAncestorOf, args: 1 
+IsDescendantOf, args: 1 
+Remove, args: 0 
+SetAttribute, args: 2 
+WaitForChild, args: 2 
+children, args: 0 
+clone, args: 0 
+destroy, args: 0 
+findFirstChild, args: 2 
+getChildren, args: 0 
+isA, args: 1 
+isDescendantOf, args: 1 
+remove, args: 0 
+||ABTestService||
+
+ClearUserVariations, args: 0 
+GetBrowserTrackerABTestLoadingStatus, args: 0 
+GetPendingOrInitializedUserId, args: 0 
+GetUserABTestLoadingStatus, args: 0 
+GetVariant, args: 1 
+InitializeForUserId, args: 1 
+WaitUntilBrowserTrackerABTestsInitialized, args: 0 
+WaitUntilUserABTestsInitialized, args: 0 
+||Accoutrement||
+
+||Accessory||
+
+||Hat||
+
+||AdService||
+
+ShowVideoAd, args: 0 
+||AdvancedDragger||
+
+||AnalyticsService||
+
+FireCustomEvent, args: 3 
+FireEvent, args: 2 
+FireInGameEconomyEvent, args: 8 
+FireLogEvent, args: 5 
+FirePlayerProgressionEvent, args: 6 
+||Animation||
+
+||AnimationClip||
+
+||CurveAnimation||
+
+||KeyframeSequence||
+
+AddKeyframe, args: 1 
+GetKeyframes, args: 0 
+RemoveKeyframe, args: 1 
+||AnimationClipProvider||
+
+GetAnimationClip, args: 1 
+GetAnimationClipById, args: 2 
+GetMemStats, args: 0 
+RegisterActiveAnimationClip, args: 1 
+RegisterAnimationClip, args: 1 
+GetAnimationClipAsync, args: 1 
+GetAnimations, args: 1 
+||AnimationController||
+
+GetPlayingAnimationTracks, args: 0 
+LoadAnimation, args: 1 
+||AnimationFromVideoCreatorService||
+
+CreateJob, args: 1 
+DownloadJobResult, args: 2 
+FullProcess, args: 2 
+GetJobStatus, args: 1 
+||AnimationRigData||
+
+LoadFromHumanoid, args: 1 
+||AnimationTrack||
+
+AdjustSpeed, args: 1 
+AdjustWeight, args: 2 
+GetMarkerReachedSignal, args: 1 
+GetTimeOfKeyframe, args: 1 
+Play, args: 3 
+Stop, args: 1 
+||Animator||
+
+ApplyJointVelocities, args: 1 
+GetPlayingAnimationTracks, args: 0 
+LoadAnimation, args: 1 
+StepAnimations, args: 1 
+||AppUpdateService||
+
+CheckForUpdate, args: 1 
+DisableDUAR, args: 0 
+DisableDUARAndOpenSurvey, args: 1 
+PerformManagedUpdate, args: 0 
+||AssetCounterService||
+
+||AssetDeliveryProxy||
+
+||AssetImportService||
+
+GetCurrentImportMap, args: 0 
+ImportMesh, args: 1 
+IsAvatar, args: 0 
+Upload, args: 0 
+ImportMeshWithPrompt, args: 0 
+||AssetManagerService||
+
+GetMeshIdFromAliasName, args: 1 
+GetMeshIdFromAssetId, args: 1 
+GetTextureIdFromAliasName, args: 1 
+GetTextureIdFromAssetId, args: 1 
+HasUnpublishedChangesForLinkedSource, args: 1 
+InsertAudio, args: 2 
+InsertImage, args: 1 
+InsertLinkedSourceAsLocalScript, args: 1 
+InsertLinkedSourceAsModuleScript, args: 1 
+InsertLinkedSourceAsScript, args: 1 
+InsertMesh, args: 2 
+InsertMeshesWithLocation, args: 1 
+InsertModel, args: 1 
+InsertPackage, args: 1 
+OpenLinkedSource, args: 1 
+OpenPlace, args: 1 
+RefreshLinkedSource, args: 1 
+RevertLinkedSourceToLastPublishedVersion, args: 1 
+ShowPackageDetails, args: 1 
+UpdateAllPackages, args: 1 
+ViewPackageOnWebsite, args: 1 
+AddNewPlace, args: 0 
+CreateAlias, args: 3 
+DeleteAlias, args: 1 
+PublishLinkedSource, args: 2 
+RemovePlace, args: 1 
+RenameAlias, args: 4 
+RenameModel, args: 2 
+RenamePlace, args: 2 
+||AssetService||
+
+GetBundleDetailsSync, args: 1 
+CreatePlaceAsync, args: 3 
+CreatePlaceInPlayerInventoryAsync, args: 4 
+GetAssetIdsForPackage, args: 1 
+GetAssetThumbnailAsync, args: 3 
+GetBundleDetailsAsync, args: 1 
+GetCreatorAssetID, args: 1 
+GetGamePlacesAsync, args: 0 
+SavePlaceAsync, args: 0 
+||Atmosphere||
+
+||Attachment||
+
+GetAxis, args: 0 
+GetSecondaryAxis, args: 0 
+SetAxis, args: 1 
+SetSecondaryAxis, args: 1 
+||Bone||
+
+||AvatarEditorService||
+
+NoPromptCreateOutfit, args: 3 
+NoPromptDeleteOutfit, args: 1 
+NoPromptRenameOutfit, args: 2 
+NoPromptSaveAvatar, args: 4 
+NoPromptSetFavorite, args: 3 
+NoPromptUpdateOutfit, args: 3 
+PerformCreateOutfit, args: 1 
+PerformCreateOutfitWithDescription, args: 2 
+PerformDeleteOutfit, args: 0 
+PerformRenameOutfit, args: 1 
+PerformSaveAvatarNew, args: 2 
+PerformSaveAvatarWithDescription, args: 3 
+PerformSetFavorite, args: 0 
+PerformUpdateOutfit, args: 1 
+PromptAllowInventoryReadAccess, args: 0 
+PromptCreateOutfit, args: 2 
+PromptDeleteOutfit, args: 1 
+PromptRenameOutfit, args: 1 
+PromptSaveAvatar, args: 2 
+PromptSetFavorite, args: 3 
+PromptUpdateOutfit, args: 3 
+SetAllowInventoryReadAccess, args: 1 
+SignalCreateOutfitFailed, args: 0 
+SignalCreateOutfitPermissionDenied, args: 0 
+SignalDeleteOutfitFailed, args: 0 
+SignalDeleteOutfitPermissionDenied, args: 0 
+SignalRenameOutfitFailed, args: 0 
+SignalRenameOutfitPermissionDenied, args: 0 
+SignalSaveAvatarFailed, args: 0 
+SignalSaveAvatarPermissionDenied, args: 0 
+SignalSetFavoriteFailed, args: 0 
+SignalSetFavoritePermissionDenied, args: 0 
+SignalUpdateOutfitFailed, args: 0 
+SignalUpdateOutfitPermissionDenied, args: 0 
+CheckApplyDefaultClothing, args: 1 
+ConformToAvatarRules, args: 1 
+GetAvatarRules, args: 0 
+GetBatchItemDetails, args: 2 
+GetFavorite, args: 2 
+GetInventory, args: 1 
+GetItemDetails, args: 2 
+GetOutfits, args: 1 
+GetRecommendedAssets, args: 2 
+GetRecommendedBundles, args: 1 
+SearchCatalog, args: 1 
+||AvatarImportService||
+
+ImportFBXAnimationFromFilePathUserMayChooseModel, args: 3 
+ImportFBXAnimationUserMayChooseModel, args: 2 
+ImportFbxRigWithoutSceneLoad, args: 1 
+ImportLoadedFBXAnimation, args: 1 
+LoadRigAndDetectType, args: 1 
+||Backpack||
+
+||BackpackItem||
+
+||HopperBin||
+
+Disable, args: 0 
+ToggleSelect, args: 0 
+||Tool||
+
+Activate, args: 0 
+Deactivate, args: 0 
+||Flag||
+
+||BadgeService||
+
+AwardBadge, args: 2 
+GetBadgeInfoAsync, args: 1 
+IsDisabled, args: 1 
+IsLegal, args: 1 
+UserHasBadge, args: 2 
+UserHasBadgeAsync, args: 2 
+||BasePlayerGui||
+
+GetGuiObjectsAtPosition, args: 2 
+GetGuiObjectsInCircle, args: 2 
+||CoreGui||
+
+SetUserGuiRendering, args: 3 
+TakeScreenshot, args: 0 
+ToggleRecording, args: 0 
+||PlayerGui||
+
+GetTopbarTransparency, args: 0 
+SetTopbarTransparency, args: 1 
+||StarterGui||
+
+GetCoreGuiEnabled, args: 1 
+RegisterGetCore, args: 2 
+RegisterSetCore, args: 2 
+SetCore, args: 2 
+SetCoreGuiEnabled, args: 2 
+GetCore, args: 1 
+||BaseWrap||
+
+GetFaces, args: 1 
+GetVertices, args: 1 
+IsHSRReady, args: 0 
+ModifyVertices, args: 2 
+||WrapLayer||
+
+||WrapTarget||
+
+||Beam||
+
+SetTextureOffset, args: 1 
+||BindableEvent||
+
+Fire, args: 1 
+||BindableFunction||
+
+Invoke, args: 1 
+||BodyMover||
+
+||BodyAngularVelocity||
+
+||BodyForce||
+
+||BodyGyro||
+
+||BodyPosition||
+
+GetLastForce, args: 0 
+lastForce, args: 0 
+||BodyThrust||
+
+||BodyVelocity||
+
+GetLastForce, args: 0 
+lastForce, args: 0 
+||RocketPropulsion||
+
+Abort, args: 0 
+Fire, args: 0 
+fire, args: 0 
+||Breakpoint||
+
+||BreakpointManager||
+
+AddBreakpoint, args: 3 
+GetBreakpointById, args: 1 
+RemoveBreakpointById, args: 1 
+||BrowserService||
+
+CloseBrowserWindow, args: 0 
+CopyAuthCookieFromBrowserToEngine, args: 0 
+EmitHybridEvent, args: 3 
+ExecuteJavaScript, args: 1 
+OpenBrowserWindow, args: 1 
+OpenNativeOverlay, args: 2 
+OpenWeChatAuthWindow, args: 0 
+ReturnToJavaScript, args: 3 
+SendCommand, args: 1 
+||BulkImportService||
+
+LaunchBulkImport, args: 1 
+ShowBulkImportView, args: 0 
+||CSGCacheService||
+
+||CacheableContentProvider||
+
+||HSRDataContentProvider||
+
+||MeshContentProvider||
+
+GetContentMemoryData, args: 0 
+||SolidModelContentProvider||
+
+||CalloutService||
+
+AttachCallout, args: 3 
+DefineCallout, args: 4 
+DetachCalloutsByDefinitionId, args: 1 
+||Camera||
+
+GetLargestCutoffDistance, args: 1 
+GetPanSpeed, args: 0 
+GetPartsObscuringTarget, args: 2 
+GetRenderCFrame, args: 0 
+GetRoll, args: 0 
+GetTiltSpeed, args: 0 
+Interpolate, args: 3 
+PanUnits, args: 1 
+ScreenPointToRay, args: 3 
+SetCameraPanMode, args: 1 
+SetImageServerView, args: 1 
+SetRoll, args: 1 
+TiltUnits, args: 1 
+ViewportPointToRay, args: 3 
+WorldToScreenPoint, args: 1 
+WorldToViewportPoint, args: 1 
+Zoom, args: 1 
+||ChangeHistoryService||
+
+GetCanRedo, args: 0 
+GetCanUndo, args: 0 
+Redo, args: 0 
+ResetWaypoints, args: 0 
+SetEnabled, args: 1 
+SetWaypoint, args: 1 
+Undo, args: 0 
+||CharacterAppearance||
+
+||BodyColors||
+
+||CharacterMesh||
+
+||Clothing||
+
+||Pants||
+
+||Shirt||
+
+||ShirtGraphic||
+
+||Skin||
+
+||Chat||
+
+Chat, args: 3 
+ChatLocal, args: 3 
+GetShouldUseLuaChat, args: 0 
+InvokeChatCallback, args: 2 
+RegisterChatCallback, args: 2 
+SetBubbleChatSettings, args: 1 
+CanUserChatAsync, args: 1 
+CanUsersChatAsync, args: 2 
+FilterStringAsync, args: 3 
+FilterStringForBroadcast, args: 2 
+FilterStringForPlayerAsync, args: 2 
+||ClickDetector||
+
+||Clouds||
+
+||ClusterPacketCache||
+
+||CollectionService||
+
+AddTag, args: 2 
+GetCollection, args: 1 
+GetInstanceAddedSignal, args: 1 
+GetInstanceRemovedSignal, args: 1 
+GetTagged, args: 1 
+GetTags, args: 1 
+HasTag, args: 2 
+RemoveTag, args: 2 
+||CommandInstance||
+
+EnableGuiAccess, args: 3 
+RegisterExecutionCallback, args: 1 
+||CommandService||
+
+Execute, args: 2 
+RegisterCommand, args: 4 
+||Configuration||
+
+||ConfigureServerService||
+
+||Constraint||
+
+||AlignOrientation||
+
+||AlignPosition||
+
+||AngularVelocity||
+
+||BallSocketConstraint||
+
+||HingeConstraint||
+
+||LineForce||
+
+||LinearVelocity||
+
+||Plane||
+
+||RigidConstraint||
+
+||RodConstraint||
+
+||RopeConstraint||
+
+||SlidingBallConstraint||
+
+||CylindricalConstraint||
+
+||PrismaticConstraint||
+
+||SpringConstraint||
+
+||Torque||
+
+||TorsionSpringConstraint||
+
+||UniversalConstraint||
+
+||VectorForce||
+
+||ContentProvider||
+
+CalculateNumTrianglesInMeshSync, args: 1 
+GetDetailedFailedRequests, args: 0 
+GetFailedRequests, args: 0 
+ListEncryptedAssets, args: 0 
+Preload, args: 1 
+RegisterDefaultEncryptionKey, args: 1 
+RegisterDefaultSessionKey, args: 1 
+RegisterEncryptedAsset, args: 2 
+RegisterSessionEncryptedAsset, args: 2 
+SetBaseUrl, args: 1 
+UnregisterDefaultEncryptionKey, args: 0 
+UnregisterEncryptedAsset, args: 1 
+CalculateNumTrianglesInMesh, args: 1 
+PreloadAsync, args: 2 
+||ContextActionService||
+
+BindAction, args: 4 
+BindActionAtPriority, args: 5 
+BindActionToInputTypes, args: 4 
+BindActivate, args: 2 
+BindCoreAction, args: 4 
+BindCoreActionAtPriority, args: 5 
+CallFunction, args: 3 
+FireActionButtonFoundSignal, args: 2 
+GetAllBoundActionInfo, args: 0 
+GetAllBoundCoreActionInfo, args: 0 
+GetBoundActionInfo, args: 1 
+GetBoundCoreActionInfo, args: 1 
+GetCurrentLocalToolIcon, args: 0 
+SetDescription, args: 2 
+SetImage, args: 2 
+SetPosition, args: 2 
+SetTitle, args: 2 
+UnbindAction, args: 1 
+UnbindActivate, args: 2 
+UnbindAllActions, args: 0 
+UnbindCoreAction, args: 1 
+GetButton, args: 1 
+||Controller||
+
+BindButton, args: 2 
+GetButton, args: 1 
+UnbindButton, args: 1 
+bindButton, args: 2 
+getButton, args: 1 
+||HumanoidController||
+
+||SkateboardController||
+
+||VehicleController||
+
+||ControllerService||
+
+||CookiesService||
+
+||CorePackages||
+
+||CoreScriptSyncService||
+
+GetScriptFilePath, args: 1 
+||CustomEvent||
+
+GetAttachedReceivers, args: 0 
+SetValue, args: 1 
+||CustomEventReceiver||
+
+GetCurrentValue, args: 0 
+||DataModelMesh||
+
+||BevelMesh||
+
+||BlockMesh||
+
+||CylinderMesh||
+
+||FileMesh||
+
+||SpecialMesh||
+
+||DataModelPatchService||
+
+GetPatch, args: 1 
+RegisterPatch, args: 4 
+UpdatePatch, args: 3 
+||DataModelSession||
+
+||DataStoreIncrementOptions||
+
+GetMetadata, args: 0 
+SetMetadata, args: 1 
+||DataStoreInfo||
+
+||DataStoreKey||
+
+||DataStoreKeyInfo||
+
+GetMetadata, args: 0 
+GetUserIds, args: 0 
+||DataStoreObjectVersionInfo||
+
+||DataStoreOptions||
+
+SetExperimentalFeatures, args: 1 
+||DataStoreService||
+
+GetDataStore, args: 3 
+GetGlobalDataStore, args: 0 
+GetOrderedDataStore, args: 2 
+GetRequestBudgetForRequestType, args: 1 
+ListDataStoresAsync, args: 2 
+||DataStoreSetOptions||
+
+GetMetadata, args: 0 
+SetMetadata, args: 1 
+||Debris||
+
+AddItem, args: 2 
+SetLegacyMaxItems, args: 1 
+addItem, args: 2 
+||DebugSettings||
+
+||DebuggerBreakpoint||
+
+||DebuggerConnection||
+
+AddBreakpoint, args: 3 
+Close, args: 0 
+EvaluateWatch, args: 3 
+GetFrameById, args: 1 
+GetSource, args: 2 
+GetThreadById, args: 1 
+GetThreads, args: 1 
+GetVariableById, args: 1 
+Pause, args: 2 
+Populate, args: 2 
+RemoveBreakpoint, args: 1 
+Resume, args: 2 
+SetVariable, args: 3 
+Step, args: 2 
+StepIn, args: 2 
+StepOut, args: 2 
+||DebuggerConnectionManager||
+
+ConnectLocal, args: 1 
+ConnectRemote, args: 2 
+FocusConnection, args: 1 
+GetConnectionById, args: 1 
+||DebuggerLuaResponse||
+
+GetArg, args: 0 
+||DebuggerManager||
+
+AddDebugger, args: 1 
+EnableDebugging, args: 0 
+GetDebuggers, args: 0 
+Resume, args: 0 
+StepIn, args: 0 
+StepOut, args: 0 
+StepOver, args: 0 
+||DebuggerUIService||
+
+EditBreakpoint, args: 1 
+OpenScriptAtLine, args: 3 
+Pause, args: 0 
+Resume, args: 0 
+||DebuggerVariable||
+
+GetVariableByIndex, args: 1 
+GetVariableByName, args: 1 
+||DebuggerWatch||
+
+||Dialog||
+
+GetCurrentPlayers, args: 0 
+SetPlayerIsUsing, args: 2 
+SignalDialogChoiceSelected, args: 2 
+||DialogChoice||
+
+||DraftsService||
+
+DiscardEdits, args: 1 
+GetDraftStatus, args: 1 
+GetEditors, args: 1 
+RestoreScripts, args: 1 
+ShowDiffsAgainstBase, args: 1 
+ShowDiffsAgainstServer, args: 1 
+CommitEdits, args: 1 
+GetDrafts, args: 0 
+UpdateToLatestVersion, args: 1 
+||Dragger||
+
+AxisRotate, args: 1 
+MouseDown, args: 3 
+MouseMove, args: 1 
+MouseUp, args: 0 
+||DraggerService||
+
+||EulerRotationCurve||
+
+GetAnglesAtTime, args: 1 
+GetRotationAtTime, args: 1 
+X, args: 0 
+Y, args: 0 
+Z, args: 0 
+||EventIngestService||
+
+SendEventDeferred, args: 4 
+SendEventImmediately, args: 4 
+SetRBXEvent, args: 4 
+SetRBXEventStream, args: 4 
+||Explosion||
+
+||FaceControls||
+
+||FaceInstance||
+
+||Decal||
+
+||Texture||
+
+||Feature||
+
+||Hole||
+
+||MotorFeature||
+
+||File||
+
+GetBinaryContents, args: 0 
+GetTemporaryId, args: 0 
+||Fire||
+
+||FlagStandService||
+
+||FloatCurve||
+
+GetKeyAtIndex, args: 1 
+GetKeyIndicesAtTime, args: 1 
+GetKeys, args: 0 
+GetValueAtTime, args: 1 
+InsertKey, args: 1 
+RemoveKeyAtIndex, args: 2 
+SetKeys, args: 1 
+||FlyweightService||
+
+||CSGDictionaryService||
+
+||NonReplicatedCSGDictionaryService||
+
+||Folder||
+
+||ForceField||
+
+||FriendService||
+
+GetPlatformFriends, args: 0 
+||FunctionalTest||
+
+Error, args: 1 
+Failed, args: 1 
+Pass, args: 1 
+Passed, args: 1 
+Warn, args: 1 
+||GamePassService||
+
+PlayerHasPass, args: 2 
+||GameSettings||
+
+||GamepadService||
+
+GetGamepadCursorPosition, args: 0 
+SetGamepadCursorPosition, args: 1 
+||Geometry||
+
+||GlobalDataStore||
+
+OnUpdate, args: 2 
+GetAsync, args: 1 
+IncrementAsync, args: 4 
+RemoveAsync, args: 1 
+SetAsync, args: 4 
+UpdateAsync, args: 2 
+||DataStore||
+
+GetVersionAsync, args: 2 
+ListKeysAsync, args: 2 
+ListVersionsAsync, args: 5 
+RemoveVersionAsync, args: 2 
+||OrderedDataStore||
+
+GetSortedAsync, args: 4 
+||GoogleAnalyticsConfiguration||
+
+||GroupService||
+
+GetAlliesAsync, args: 1 
+GetEnemiesAsync, args: 1 
+GetGroupInfoAsync, args: 1 
+GetGroupsAsync, args: 1 
+||GuiBase||
+
+||GuiBase2d||
+
+||GuiObject||
+
+TweenPosition, args: 6 
+TweenSize, args: 6 
+TweenSizeAndPosition, args: 7 
+||CanvasGroup||
+
+||Frame||
+
+||GuiButton||
+
+||ImageButton||
+
+SetEnableContentImageSizeChangedEvents, args: 1 
+||TextButton||
+
+SetTextFromInput, args: 1 
+||GuiLabel||
+
+||ImageLabel||
+
+SetEnableContentImageSizeChangedEvents, args: 1 
+||TextLabel||
+
+SetTextFromInput, args: 1 
+||ScrollingFrame||
+
+ClearInertialScrolling, args: 0 
+GetSampledInertialVelocity, args: 0 
+ScrollToTop, args: 0 
+||TextBox||
+
+CaptureFocus, args: 0 
+IsFocused, args: 0 
+ReleaseFocus, args: 1 
+ResetKeyboardMode, args: 0 
+SetTextFromInput, args: 1 
+||VideoFrame||
+
+Pause, args: 0 
+Play, args: 0 
+||ViewportFrame||
+
+||LayerCollector||
+
+GetLayoutNodeTree, args: 0 
+||BillboardGui||
+
+GetScreenSpaceBounds, args: 0 
+||PluginGui||
+
+BindToClose, args: 1 
+GetRelativeMousePosition, args: 0 
+||DockWidgetPluginGui||
+
+RequestRaise, args: 0 
+||QWidgetPluginGui||
+
+||ScreenGui||
+
+||GuiMain||
+
+||SurfaceGui||
+
+||GuiBase3d||
+
+||FloorWire||
+
+||InstanceAdornment||
+
+||SelectionBox||
+
+||PVAdornment||
+
+||HandleAdornment||
+
+||BoxHandleAdornment||
+
+||ConeHandleAdornment||
+
+||CylinderHandleAdornment||
+
+||ImageHandleAdornment||
+
+||LineHandleAdornment||
+
+||SphereHandleAdornment||
+
+||ParabolaAdornment||
+
+FindPartOnParabola, args: 1 
+||SelectionSphere||
+
+||PartAdornment||
+
+||HandlesBase||
+
+||ArcHandles||
+
+||Handles||
+
+||SurfaceSelection||
+
+||SelectionLasso||
+
+||SelectionPartLasso||
+
+||SelectionPointLasso||
+
+||GuiService||
+
+AddCenterDialog, args: 4 
+AddKey, args: 1 
+AddSelectionParent, args: 2 
+AddSelectionTuple, args: 2 
+AddSpecialKey, args: 1 
+BroadcastNotification, args: 2 
+ClearError, args: 0 
+CloseInspectMenu, args: 0 
+CloseStatsBasedOnInputString, args: 1 
+ForceTenFootInterface, args: 1 
+GetBrickCount, args: 0 
+GetClosestDialogToPosition, args: 1 
+GetEmotesMenuOpen, args: 0 
+GetErrorCode, args: 0 
+GetErrorMessage, args: 0 
+GetErrorType, args: 0 
+GetGameplayPausedNotificationEnabled, args: 0 
+GetGuiInset, args: 0 
+GetInspectMenuEnabled, args: 0 
+GetNotificationTypeList, args: 0 
+GetResolutionScale, args: 0 
+GetSafeZoneOffsets, args: 0 
+GetUiMessage, args: 0 
+InspectPlayerFromHumanoidDescription, args: 2 
+InspectPlayerFromUserId, args: 1 
+InspectPlayerFromUserIdWithCtx, args: 2 
+IsMemoryTrackerEnabled, args: 0 
+IsTenFootInterface, args: 0 
+OpenBrowserWindow, args: 1 
+OpenNativeOverlay, args: 2 
+RemoveCenterDialog, args: 1 
+RemoveKey, args: 1 
+RemoveSelectionGroup, args: 1 
+RemoveSpecialKey, args: 1 
+SetEmotesMenuOpen, args: 1 
+SetGameplayPausedNotificationEnabled, args: 1 
+SetGlobalGuiInset, args: 4 
+SetInspectMenuEnabled, args: 1 
+SetMenuIsOpen, args: 2 
+SetSafeZoneOffsets, args: 4 
+SetUiMessage, args: 2 
+ShowStatsBasedOnInputString, args: 1 
+ToggleFullscreen, args: 0 
+GetScreenResolution, args: 0 
+||GuidRegistryService||
+
+||HapticService||
+
+GetMotor, args: 2 
+IsMotorSupported, args: 2 
+IsVibrationSupported, args: 1 
+SetMotor, args: 3 
+||HeightmapImporterService||
+
+CancelImportHeightmap, args: 0 
+IsValidColormap, args: 1 
+IsValidHeightmap, args: 1 
+SetImportHeightmapPaused, args: 1 
+GetHeightmapPreviewAsync, args: 1 
+ImportHeightmap, args: 4 
+||HiddenSurfaceRemovalAsset||
+
+||Highlight||
+
+||Hopper||
+
+||HttpRbxApiService||
+
+GetDocumentationUrl, args: 1 
+GetAsync, args: 3 
+GetAsyncFullUrl, args: 3 
+PostAsync, args: 5 
+PostAsyncFullUrl, args: 5 
+RequestAsync, args: 4 
+RequestLimitedAsync, args: 4 
+||HttpRequest||
+
+Cancel, args: 0 
+Start, args: 1 
+||HttpService||
+
+GenerateGUID, args: 1 
+GetHttpEnabled, args: 0 
+GetUserAgent, args: 0 
+JSONDecode, args: 1 
+JSONEncode, args: 1 
+RequestInternal, args: 1 
+SetHttpEnabled, args: 1 
+UrlEncode, args: 1 
+GetAsync, args: 3 
+PostAsync, args: 5 
+RequestAsync, args: 1 
+||Humanoid||
+
+AddAccessory, args: 1 
+AddCustomStatus, args: 1 
+AddStatus, args: 1 
+ApplyDescriptionBlocking, args: 1 
+BuildRigFromAttachments, args: 0 
+CacheDefaults, args: 0 
+ChangeState, args: 1 
+EquipTool, args: 1 
+GetAccessories, args: 0 
+GetAccessoryHandleScale, args: 2 
+GetAppliedDescription, args: 0 
+GetBodyPartR15, args: 1 
+GetLimb, args: 1 
+GetPlayingAnimationTracks, args: 0 
+GetState, args: 0 
+GetStateEnabled, args: 1 
+GetStatuses, args: 0 
+HasCustomStatus, args: 1 
+HasStatus, args: 1 
+LoadAnimation, args: 1 
+Move, args: 2 
+MoveTo, args: 2 
+RemoveAccessories, args: 0 
+RemoveCustomStatus, args: 1 
+RemoveStatus, args: 1 
+ReplaceBodyPartR15, args: 2 
+SetClickToWalkEnabled, args: 1 
+SetStateEnabled, args: 2 
+TakeDamage, args: 1 
+UnequipTools, args: 0 
+loadAnimation, args: 1 
+takeDamage, args: 1 
+ApplyDescription, args: 2 
+ApplyDescriptionClientServer, args: 1 
+PlayEmote, args: 1 
+PlayEmoteAndGetAnimTrackById, args: 1 
+||HumanoidDescription||
+
+AddEmote, args: 2 
+GetAccessories, args: 1 
+GetEmotes, args: 0 
+GetEquippedEmotes, args: 0 
+RemoveEmote, args: 1 
+SetAccessories, args: 2 
+SetEmotes, args: 1 
+SetEquippedEmotes, args: 1 
+||ILegacyStudioBridge||
+
+||LegacyStudioBridge||
+
+||IXPService||
+
+ClearUserLayers, args: 0 
+GetBrowserTrackerLayerLoadingStatus, args: 0 
+GetBrowserTrackerLayerVariables, args: 1 
+GetUserLayerLoadingStatus, args: 0 
+GetUserLayerVariables, args: 1 
+InitializeUserLayers, args: 1 
+RegisterUserLayers, args: 1 
+||ImporterBaseSettings||
+
+GetStatuses, args: 0 
+||ImporterGroupSettings||
+
+||ImporterJointSettings||
+
+||ImporterMeshSettings||
+
+||ImporterRootSettings||
+
+||ImporterTextureSettings||
+
+||IncrementalPatchBuilder||
+
+||InputObject||
+
+IsModifierKeyDown, args: 1 
+||InsertService||
+
+ApproveAssetId, args: 1 
+ApproveAssetVersionId, args: 1 
+Insert, args: 1 
+LoadLocalAsset, args: 1 
+LoadPackageAsset, args: 1 
+CreateMeshPartAsync, args: 3 
+GetBaseCategories, args: 0 
+GetBaseSets, args: 0 
+GetCollection, args: 1 
+GetFreeDecals, args: 2 
+GetFreeModels, args: 2 
+GetLatestAssetVersionAsync, args: 1 
+GetUserCategories, args: 1 
+GetUserSets, args: 1 
+LoadAsset, args: 1 
+LoadAssetVersion, args: 1 
+LoadPackageAssetAsync, args: 1 
+loadAsset, args: 1 
+||InternalContainer||
+
+||JointInstance||
+
+||DynamicRotate||
+
+||RotateP||
+
+||RotateV||
+
+||Glue||
+
+||ManualSurfaceJointInstance||
+
+||ManualGlue||
+
+||ManualWeld||
+
+||Motor||
+
+SetDesiredAngle, args: 1 
+||Motor6D||
+
+||Rotate||
+
+||Snap||
+
+||VelocityMotor||
+
+||Weld||
+
+||JointsService||
+
+ClearJoinAfterMoveJoints, args: 0 
+CreateJoinAfterMoveJoints, args: 0 
+SetJoinAfterMoveInstance, args: 1 
+SetJoinAfterMoveTarget, args: 1 
+ShowPermissibleJoints, args: 0 
+||KeyboardService||
+
+||Keyframe||
+
+AddMarker, args: 1 
+AddPose, args: 1 
+GetMarkers, args: 0 
+GetPoses, args: 0 
+RemoveMarker, args: 1 
+RemovePose, args: 1 
+||KeyframeMarker||
+
+||KeyframeSequenceProvider||
+
+GetKeyframeSequence, args: 1 
+GetKeyframeSequenceById, args: 2 
+GetMemStats, args: 0 
+RegisterActiveKeyframeSequence, args: 1 
+RegisterKeyframeSequence, args: 1 
+GetAnimations, args: 1 
+GetKeyframeSequenceAsync, args: 1 
+||LanguageService||
+
+||Light||
+
+||PointLight||
+
+||SpotLight||
+
+||SurfaceLight||
+
+||Lighting||
+
+GetMinutesAfterMidnight, args: 0 
+GetMoonDirection, args: 0 
+GetMoonPhase, args: 0 
+GetSunDirection, args: 0 
+SetMinutesAfterMidnight, args: 1 
+getMinutesAfterMidnight, args: 0 
+setMinutesAfterMidnight, args: 1 
+||LocalStorageService||
+
+Flush, args: 0 
+GetItem, args: 1 
+SetItem, args: 2 
+WhenLoaded, args: 1 
+||AppStorageService||
+
+||UserStorageService||
+
+||LocalizationService||
+
+GetCorescriptLocalizations, args: 0 
+GetTableEntries, args: 1 
+GetTranslatorForPlayer, args: 1 
+SetRobloxLocaleId, args: 1 
+StartTextScraper, args: 0 
+StopTextScraper, args: 0 
+GetCountryRegionForPlayerAsync, args: 1 
+GetTranslatorForLocaleAsync, args: 1 
+GetTranslatorForPlayerAsync, args: 1 
+PromptDownloadGameTableToCSV, args: 1 
+PromptExportToCSVs, args: 0 
+PromptImportFromCSVs, args: 0 
+PromptUploadCSVToGameTable, args: 0 
+||LocalizationTable||
+
+GetContents, args: 0 
+GetEntries, args: 0 
+GetString, args: 2 
+GetTranslator, args: 1 
+RemoveEntry, args: 3 
+RemoveEntryValue, args: 4 
+RemoveKey, args: 1 
+RemoveTargetLocale, args: 1 
+SetContents, args: 1 
+SetEntries, args: 1 
+SetEntry, args: 3 
+SetEntryContext, args: 4 
+SetEntryExample, args: 4 
+SetEntryKey, args: 4 
+SetEntrySource, args: 4 
+SetEntryValue, args: 5 
+SetIsExemptFromUGCAnalytics, args: 1 
+||LodDataEntity||
+
+||LodDataService||
+
+||LogService||
+
+ExecuteScript, args: 1 
+GetHttpResultHistory, args: 0 
+GetLogHistory, args: 0 
+RequestHttpResultApproved, args: 0 
+RequestServerHttpResult, args: 0 
+RequestServerOutput, args: 0 
+||LoginService||
+
+Logout, args: 0 
+PromptLogin, args: 0 
+||LuaSettings||
+
+||LuaSourceContainer||
+
+||BaseScript||
+
+||CoreScript||
+
+||Script||
+
+GetHash, args: 0 
+||LocalScript||
+
+||ModuleScript||
+
+||LuaWebService||
+
+||LuauScriptAnalyzerService||
+
+||MarkerCurve||
+
+GetMarkerAtIndex, args: 1 
+GetMarkers, args: 0 
+InsertMarkerAtTime, args: 2 
+RemoveMarkerAtIndex, args: 2 
+||MarketplaceService||
+
+PlayerCanMakePurchases, args: 1 
+PromptBundlePurchase, args: 2 
+PromptGamePassPurchase, args: 2 
+PromptNativePurchase, args: 2 
+PromptPremiumPurchase, args: 1 
+PromptProductPurchase, args: 4 
+PromptPurchase, args: 4 
+PromptRobloxPurchase, args: 2 
+PromptSubscriptionCancellation, args: 2 
+PromptSubscriptionPurchase, args: 2 
+PromptThirdPartyPurchase, args: 2 
+ReportAssetSale, args: 2 
+ReportRobuxUpsellStarted, args: 0 
+SignalAssetTypePurchased, args: 2 
+SignalClientPurchaseSuccess, args: 3 
+SignalMockPurchasePremium, args: 0 
+SignalPromptBundlePurchaseFinished, args: 3 
+SignalPromptGamePassPurchaseFinished, args: 3 
+SignalPromptPremiumPurchaseFinished, args: 1 
+SignalPromptProductPurchaseFinished, args: 3 
+SignalPromptPurchaseFinished, args: 3 
+SignalPromptSubscriptionCancellationFinished, args: 3 
+SignalPromptSubscriptionPurchaseFinished, args: 3 
+SignalServerLuaDialogClosed, args: 1 
+GetDeveloperProductsAsync, args: 0 
+GetProductInfo, args: 2 
+GetRobuxBalance, args: 0 
+IsPlayerSubscribed, args: 2 
+PerformPurchase, args: 5 
+PlayerOwnsAsset, args: 2 
+UserOwnsGamePassAsync, args: 2 
+||MaterialService||
+
+ClearOverridePartMaterial, args: 1 
+ClearOverrideTerrainMaterial, args: 1 
+GetOverridePartMaterial, args: 1 
+GetOverrideTerrainMaterial, args: 1 
+SetOverridePartMaterial, args: 1 
+SetOverrideTerrainMaterial, args: 1 
+||MaterialVariant||
+
+||MemStorageConnection||
+
+Disconnect, args: 0 
+||MemStorageService||
+
+Bind, args: 2 
+BindAndFire, args: 2 
+Call, args: 2 
+Fire, args: 2 
+GetItem, args: 2 
+HasItem, args: 1 
+RemoveItem, args: 1 
+SetItem, args: 2 
+||MemoryStoreQueue||
+
+AddAsync, args: 3 
+ReadAsync, args: 3 
+RemoveAsync, args: 1 
+||MemoryStoreService||
+
+GetQueue, args: 2 
+GetSortedMap, args: 1 
+||MemoryStoreSortedMap||
+
+GetAsync, args: 1 
+GetRangeAsync, args: 4 
+RemoveAsync, args: 1 
+SetAsync, args: 3 
+UpdateAsync, args: 3 
+||Message||
+
+||Hint||
+
+||MessageBusConnection||
+
+Disconnect, args: 0 
+||MessageBusService||
+
+Call, args: 2 
+GetLast, args: 1 
+GetMessageId, args: 2 
+GetProtocolMethodRequestMessageId, args: 2 
+GetProtocolMethodResponseMessageId, args: 2 
+Publish, args: 2 
+PublishProtocolMethodRequest, args: 4 
+PublishProtocolMethodResponse, args: 5 
+Subscribe, args: 4 
+SubscribeToProtocolMethodRequest, args: 5 
+SubscribeToProtocolMethodResponse, args: 5 
+||MessagingService||
+
+PublishAsync, args: 2 
+SubscribeAsync, args: 2 
+||MetaBreakpoint||
+
+GetContexts, args: 0 
+Remove, args: 1 
+SetCondition, args: 2 
+SetContinueExecution, args: 1 
+SetEnabled, args: 1 
+SetLine, args: 2 
+||MetaBreakpointContext||
+
+||Mouse||
+
+||PlayerMouse||
+
+||PluginMouse||
+
+||MouseService||
+
+||MultipleDocumentInterfaceInstance||
+
+||NetworkMarker||
+
+||NetworkPeer||
+
+SetOutgoingKBPSLimit, args: 1 
+||NetworkClient||
+
+||NetworkServer||
+
+EncryptStringForPlayerId, args: 2 
+||NetworkReplicator||
+
+GetPlayer, args: 0 
+||ClientReplicator||
+
+RequestRCCProfilerData, args: 2 
+RequestServerStats, args: 1 
+||ServerReplicator||
+
+||NetworkSettings||
+
+||NoCollisionConstraint||
+
+||NotificationService||
+
+ActionEnabled, args: 1 
+ActionTaken, args: 1 
+CancelAllNotification, args: 1 
+CancelNotification, args: 2 
+ScheduleNotification, args: 4 
+SwitchedToAppShellFeature, args: 1 
+GetScheduledNotifications, args: 1 
+||PVInstance||
+
+GetPivot, args: 0 
+PivotTo, args: 1 
+||BasePart||
+
+ApplyAngularImpulse, args: 1 
+ApplyImpulse, args: 1 
+ApplyImpulseAtPosition, args: 2 
+BreakJoints, args: 0 
+CanCollideWith, args: 1 
+CanSetNetworkOwnership, args: 0 
+GetConnectedParts, args: 1 
+GetJoints, args: 0 
+GetMass, args: 0 
+GetNetworkOwner, args: 0 
+GetNetworkOwnershipAuto, args: 0 
+GetRenderCFrame, args: 0 
+GetRootPart, args: 0 
+GetTouchingParts, args: 0 
+GetVelocityAtPosition, args: 1 
+IsGrounded, args: 0 
+MakeJoints, args: 0 
+Resize, args: 2 
+SetNetworkOwner, args: 1 
+SetNetworkOwnershipAuto, args: 0 
+breakJoints, args: 0 
+getMass, args: 0 
+makeJoints, args: 0 
+resize, args: 2 
+SubtractAsync, args: 3 
+UnionAsync, args: 3 
+||CornerWedgePart||
+
+||FormFactorPart||
+
+||Part||
+
+||FlagStand||
+
+||Platform||
+
+||Seat||
+
+Sit, args: 1 
+||SkateboardPlatform||
+
+ApplySpecificImpulse, args: 1 
+||SpawnLocation||
+
+||WedgePart||
+
+||Terrain||
+
+AutowedgeCell, args: 3 
+AutowedgeCells, args: 1 
+CellCenterToWorld, args: 3 
+CellCornerToWorld, args: 3 
+Clear, args: 0 
+ConvertToSmooth, args: 0 
+CopyRegion, args: 1 
+CountCells, args: 0 
+FillBall, args: 3 
+FillBlock, args: 3 
+FillCylinder, args: 4 
+FillRegion, args: 3 
+FillWedge, args: 3 
+GetCell, args: 3 
+GetMaterialColor, args: 1 
+GetWaterCell, args: 3 
+PasteRegion, args: 3 
+ReadVoxels, args: 2 
+ReplaceMaterial, args: 4 
+SetCell, args: 6 
+SetCells, args: 4 
+SetMaterialColor, args: 2 
+SetWaterCell, args: 5 
+WorldToCell, args: 1 
+WorldToCellPreferEmpty, args: 1 
+WorldToCellPreferSolid, args: 1 
+WriteVoxels, args: 4 
+||TriangleMeshPart||
+
+||MeshPart||
+
+ApplyMesh, args: 1 
+||PartOperation||
+
+||NegateOperation||
+
+||UnionOperation||
+
+||TrussPart||
+
+||VehicleSeat||
+
+Sit, args: 1 
+||Model||
+
+BreakJoints, args: 0 
+GetBoundingBox, args: 0 
+GetExtentsSize, args: 0 
+GetModelCFrame, args: 0 
+GetModelSize, args: 0 
+GetPrimaryPartCFrame, args: 0 
+MakeJoints, args: 0 
+MoveTo, args: 1 
+ResetOrientationToIdentity, args: 0 
+SetIdentityOrientation, args: 0 
+SetPrimaryPartCFrame, args: 1 
+TranslateBy, args: 1 
+breakJoints, args: 0 
+makeJoints, args: 0 
+move, args: 1 
+moveTo, args: 1 
+||Actor||
+
+||Status||
+
+||WorldRoot||
+
+ArePartsTouchingOthers, args: 2 
+BulkMoveTo, args: 3 
+FindPartOnRay, args: 4 
+FindPartOnRayWithIgnoreList, args: 4 
+FindPartOnRayWithWhitelist, args: 3 
+FindPartsInRegion3, args: 3 
+FindPartsInRegion3WithIgnoreList, args: 3 
+FindPartsInRegion3WithWhiteList, args: 3 
+GetPartBoundsInBox, args: 3 
+GetPartBoundsInRadius, args: 3 
+GetPartsInPart, args: 2 
+IKMoveTo, args: 5 
+IsRegion3Empty, args: 2 
+IsRegion3EmptyWithIgnoreList, args: 2 
+Raycast, args: 3 
+SetInsertPoint, args: 2 
+findPartOnRay, args: 4 
+findPartsInRegion3, args: 3 
+||Workspace||
+
+BreakJoints, args: 1 
+CalculateJumpDistance, args: 3 
+CalculateJumpHeight, args: 2 
+CalculateJumpPower, args: 2 
+ExperimentalSolverIsEnabled, args: 0 
+GetNumAwakeParts, args: 0 
+GetPhysicsThrottling, args: 0 
+GetRealPhysicsFPS, args: 0 
+GetServerTimeNow, args: 0 
+JoinToOutsiders, args: 2 
+MakeJoints, args: 1 
+PGSIsEnabled, args: 0 
+SetMeshPartHeadsAndAccessories, args: 1 
+SetPhysicsThrottleEnabled, args: 1 
+UnjoinFromOutsiders, args: 1 
+ZoomToExtents, args: 0 
+||WorldModel||
+
+||PackageLink||
+
+||PackageService||
+
+||PackageUIService||
+
+ConvertToPackageUpload, args: 3 
+||Pages||
+
+GetCurrentPage, args: 0 
+AdvanceToNextPageAsync, args: 0 
+||CatalogPages||
+
+||DataStoreKeyPages||
+
+||DataStoreListingPages||
+
+||DataStorePages||
+
+||DataStoreVersionPages||
+
+||FriendPages||
+
+||InventoryPages||
+
+||EmotesPages||
+
+||OutfitPages||
+
+||StandardPages||
+
+||PartOperationAsset||
+
+||ParticleEmitter||
+
+Clear, args: 0 
+Emit, args: 1 
+||Path||
+
+GetPointCoordinates, args: 0 
+GetWaypoints, args: 0 
+CheckOcclusionAsync, args: 1 
+ComputeAsync, args: 2 
+||PathfindingLink||
+
+||PathfindingModifier||
+
+||PathfindingService||
+
+CreatePath, args: 1 
+ComputeRawPathAsync, args: 3 
+ComputeSmoothPathAsync, args: 3 
+FindPathAsync, args: 2 
+||PausedState||
+
+||PausedStateBreakpoint||
+
+||PausedStateException||
+
+||PermissionsService||
+
+GetIsThirdPartyAssetAllowed, args: 0 
+GetIsThirdPartyPurchaseAllowed, args: 0 
+GetIsThirdPartyTeleportAllowed, args: 0 
+GetPermissions, args: 1 
+SetPermissions, args: 2 
+||PhysicsService||
+
+CollisionGroupContainsPart, args: 2 
+CollisionGroupSetCollidable, args: 3 
+CollisionGroupsAreCollidable, args: 2 
+CreateCollisionGroup, args: 1 
+GetCollisionGroupId, args: 1 
+GetCollisionGroupName, args: 1 
+GetCollisionGroups, args: 0 
+GetMaxCollisionGroups, args: 0 
+IkSolve, args: 4 
+LocalIkSolve, args: 4 
+RemoveCollisionGroup, args: 1 
+RenameCollisionGroup, args: 2 
+SetPartCollisionGroup, args: 2 
+||PhysicsSettings||
+
+||Player||
+
+AddToBlockList, args: 1 
+ClearCharacterAppearance, args: 0 
+DistanceFromCharacter, args: 1 
+GetFriendStatus, args: 1 
+GetGameSessionID, args: 0 
+GetJoinData, args: 0 
+GetMouse, args: 0 
+GetNetworkPing, args: 0 
+GetUnder13, args: 0 
+HasAppearanceLoaded, args: 0 
+IsUserAvailableForExperiment, args: 0 
+Kick, args: 1 
+LoadBoolean, args: 1 
+LoadCharacterAppearance, args: 1 
+LoadData, args: 0 
+LoadInstance, args: 1 
+LoadNumber, args: 1 
+LoadString, args: 1 
+Move, args: 2 
+RemoveCharacter, args: 0 
+RequestFriendship, args: 1 
+RevokeFriendship, args: 1 
+SaveBoolean, args: 2 
+SaveData, args: 0 
+SaveInstance, args: 2 
+SaveNumber, args: 2 
+SaveString, args: 2 
+SetAccountAge, args: 1 
+SetCharacterAppearanceJson, args: 1 
+SetMembershipType, args: 1 
+SetSuperSafeChat, args: 1 
+SetUnder13, args: 1 
+UpdatePlayerBlocked, args: 2 
+loadBoolean, args: 1 
+loadInstance, args: 1 
+loadNumber, args: 1 
+loadString, args: 1 
+saveBoolean, args: 2 
+saveInstance, args: 2 
+saveNumber, args: 2 
+saveString, args: 2 
+GetFriendsOnline, args: 1 
+GetRankInGroup, args: 1 
+GetRoleInGroup, args: 1 
+IsBestFriendsWith, args: 1 
+IsFriendsWith, args: 1 
+IsInGroup, args: 1 
+LoadCharacter, args: 0 
+LoadCharacterBlocking, args: 0 
+LoadCharacterWithHumanoidDescription, args: 1 
+RequestStreamAroundAsync, args: 2 
+WaitForDataReady, args: 0 
+isFriendsWith, args: 1 
+waitForDataReady, args: 0 
+||PlayerEmulatorService||
+
+GetEmulatedPolicyInfo, args: 0 
+RegionCodeWillHaveAutomaticNonCustomPolicies, args: 1 
+SetEmulatedPolicyInfo, args: 1 
+||PlayerScripts||
+
+ClearComputerCameraMovementModes, args: 0 
+ClearComputerMovementModes, args: 0 
+ClearTouchCameraMovementModes, args: 0 
+ClearTouchMovementModes, args: 0 
+GetRegisteredComputerCameraMovementModes, args: 0 
+GetRegisteredComputerMovementModes, args: 0 
+GetRegisteredTouchCameraMovementModes, args: 0 
+GetRegisteredTouchMovementModes, args: 0 
+RegisterComputerCameraMovementMode, args: 1 
+RegisterComputerMovementMode, args: 1 
+RegisterTouchCameraMovementMode, args: 1 
+RegisterTouchMovementMode, args: 1 
+||Players||
+
+Chat, args: 1 
+CreateLocalPlayer, args: 0 
+GetPlayerByUserId, args: 1 
+GetPlayerFromCharacter, args: 1 
+GetPlayers, args: 0 
+ReportAbuse, args: 3 
+SetChatStyle, args: 1 
+SetLocalPlayerInfo, args: 5 
+TeamChat, args: 1 
+WhisperChat, args: 2 
+getPlayers, args: 0 
+playerFromCharacter, args: 1 
+players, args: 0 
+CreateHumanoidModelFromDescription, args: 3 
+CreateHumanoidModelFromUserId, args: 1 
+GetCharacterAppearanceAsync, args: 1 
+GetCharacterAppearanceInfoAsync, args: 1 
+GetFriendsAsync, args: 1 
+GetHumanoidDescriptionFromOutfitId, args: 1 
+GetHumanoidDescriptionFromUserId, args: 1 
+GetNameFromUserIdAsync, args: 1 
+GetUserIdFromNameAsync, args: 1 
+GetUserThumbnailAsync, args: 3 
+||Plugin||
+
+Activate, args: 1 
+CreatePluginAction, args: 5 
+CreatePluginMenu, args: 3 
+CreateToolbar, args: 1 
+Deactivate, args: 0 
+GetItem, args: 2 
+GetJoinMode, args: 0 
+GetMouse, args: 0 
+GetSelectedRibbonTool, args: 0 
+GetSetting, args: 1 
+GetStudioUserId, args: 0 
+Invoke, args: 2 
+IsActivated, args: 0 
+IsActivatedWithExclusiveMouse, args: 0 
+Negate, args: 1 
+OnInvoke, args: 2 
+OnSetItem, args: 2 
+OpenScript, args: 2 
+OpenWikiPage, args: 1 
+PauseSound, args: 1 
+PlaySound, args: 2 
+ResumeSound, args: 1 
+SaveSelectedToRoblox, args: 0 
+SelectRibbonTool, args: 2 
+Separate, args: 1 
+SetItem, args: 2 
+SetReady, args: 0 
+SetSetting, args: 2 
+StartDecalDrag, args: 1 
+StartDrag, args: 1 
+StopAllSounds, args: 0 
+Union, args: 1 
+CreateDockWidgetPluginGui, args: 2 
+CreateQWidgetPluginGui, args: 2 
+ImportFbxAnimation, args: 2 
+ImportFbxRig, args: 1 
+PromptForExistingAssetId, args: 1 
+PromptSaveSelection, args: 1 
+||PluginAction||
+
+||PluginDebugService||
+
+||PluginDragEvent||
+
+||PluginGuiService||
+
+||PluginManager||
+
+CreatePlugin, args: 0 
+ExportPlace, args: 1 
+ExportSelection, args: 1 
+||PluginManagerInterface||
+
+CreatePlugin, args: 0 
+ExportPlace, args: 1 
+ExportSelection, args: 1 
+||PluginMenu||
+
+AddAction, args: 1 
+AddMenu, args: 1 
+AddNewAction, args: 3 
+AddSeparator, args: 0 
+Clear, args: 0 
+ShowAsync, args: 0 
+||PluginPolicyService||
+
+GetPluginPolicy, args: 1 
+||PluginToolbar||
+
+CreateButton, args: 4 
+||PluginToolbarButton||
+
+SetActive, args: 1 
+||PointsService||
+
+GetAwardablePoints, args: 0 
+AwardPoints, args: 2 
+GetGamePointBalance, args: 1 
+GetPointBalance, args: 1 
+||PolicyService||
+
+GetPolicyInfoForPlayerAsync, args: 1 
+GetPolicyInfoForServerRobloxOnlyAsync, args: 0 
+||PoseBase||
+
+||NumberPose||
+
+||Pose||
+
+AddSubPose, args: 1 
+GetSubPoses, args: 0 
+RemoveSubPose, args: 1 
+||PostEffect||
+
+||BloomEffect||
+
+||BlurEffect||
+
+||ColorCorrectionEffect||
+
+||DepthOfFieldEffect||
+
+||SunRaysEffect||
+
+||ProcessInstancePhysicsService||
+
+||ProximityPrompt||
+
+InputHoldBegin, args: 0 
+InputHoldEnd, args: 0 
+||ProximityPromptService||
+
+||PublishService||
+
+PublishCageMeshAsync, args: 2 
+||RbxAnalyticsService||
+
+AddGlobalPointsField, args: 2 
+AddGlobalPointsTag, args: 2 
+GetClientId, args: 0 
+GetSessionId, args: 0 
+ReleaseRBXEventStream, args: 1 
+RemoveGlobalPointsField, args: 1 
+RemoveGlobalPointsTag, args: 1 
+ReportCounter, args: 2 
+ReportInfluxSeries, args: 3 
+ReportStats, args: 2 
+ReportToDiagByCountryCode, args: 3 
+SendEventDeferred, args: 4 
+SendEventImmediately, args: 4 
+SetRBXEvent, args: 4 
+SetRBXEventStream, args: 4 
+TrackEvent, args: 4 
+TrackEventWithArgs, args: 5 
+UpdateHeartbeatObject, args: 1 
+||ReflectionMetadata||
+
+||ReflectionMetadataCallbacks||
+
+||ReflectionMetadataClasses||
+
+||ReflectionMetadataEnums||
+
+||ReflectionMetadataEvents||
+
+||ReflectionMetadataFunctions||
+
+||ReflectionMetadataItem||
+
+||ReflectionMetadataClass||
+
+||ReflectionMetadataEnum||
+
+||ReflectionMetadataEnumItem||
+
+||ReflectionMetadataMember||
+
+||ReflectionMetadataProperties||
+
+||ReflectionMetadataYieldFunctions||
+
+||RemoteDebuggerServer||
+
+||RemoteEvent||
+
+FireAllClients, args: 1 
+FireClient, args: 2 
+FireServer, args: 1 
+||RemoteFunction||
+
+InvokeClient, args: 2 
+InvokeServer, args: 1 
+||RenderSettings||
+
+GetMaxQualityLevel, args: 0 
+||RenderingTest||
+
+RenderdocTriggerCapture, args: 0 
+||ReplicatedFirst||
+
+IsDefaultLoadingGuiRemoved, args: 0 
+IsFinishedReplicating, args: 0 
+RemoveDefaultLoadingScreen, args: 0 
+SetDefaultLoadingGuiRemoved, args: 0 
+||ReplicatedScriptService||
+
+||ReplicatedStorage||
+
+||RobloxPluginGuiService||
+
+||RobloxReplicatedStorage||
+
+||RotationCurve||
+
+GetKeyAtIndex, args: 1 
+GetKeyIndicesAtTime, args: 1 
+GetKeys, args: 0 
+GetValueAtTime, args: 1 
+InsertKey, args: 1 
+RemoveKeyAtIndex, args: 2 
+SetKeys, args: 1 
+||RunService||
+
+BindToRenderStep, args: 3 
+GetCoreScriptVersion, args: 0 
+GetRobloxVersion, args: 0 
+IsClient, args: 0 
+IsEdit, args: 0 
+IsRunMode, args: 0 
+IsRunning, args: 0 
+IsServer, args: 0 
+IsStudio, args: 0 
+Pause, args: 0 
+Reset, args: 0 
+Run, args: 0 
+Set3dRenderingEnabled, args: 1 
+SetRobloxGuiFocused, args: 1 
+Stop, args: 0 
+UnbindFromRenderStep, args: 1 
+setThrottleFramerateEnabled, args: 1 
+||RuntimeScriptService||
+
+||ScriptChangeService||
+
+||ScriptContext||
+
+AddCoreScriptLocal, args: 2 
+GetCoverageStats, args: 0 
+SetTimeout, args: 1 
+||ScriptDebugger||
+
+AddWatch, args: 1 
+GetBreakpoints, args: 0 
+GetGlobals, args: 1 
+GetLocals, args: 1 
+GetStack, args: 0 
+GetUpvalues, args: 1 
+GetWatchValue, args: 1 
+GetWatches, args: 0 
+SetBreakpoint, args: 2 
+SetGlobal, args: 3 
+SetLocal, args: 3 
+SetUpvalue, args: 3 
+||ScriptRegistrationService||
+
+GetSourceContainerByScriptGuid, args: 1 
+||ScriptService||
+
+||Selection||
+
+Add, args: 1 
+ClearTerrainSelectionHack, args: 0 
+Get, args: 0 
+Remove, args: 1 
+Set, args: 1 
+SetTerrainSelectionHack, args: 2 
+||ServerScriptService||
+
+||ServerStorage||
+
+||ServiceProvider||
+
+FindService, args: 1 
+GetService, args: 1 
+getService, args: 1 
+service, args: 1 
+||DataModel||
+
+BindToClose, args: 1 
+DefineFastFlag, args: 2 
+DefineFastInt, args: 2 
+DefineFastString, args: 2 
+GetEngineFeature, args: 1 
+GetFastFlag, args: 1 
+GetFastInt, args: 1 
+GetFastString, args: 1 
+GetJobsInfo, args: 0 
+GetMessage, args: 0 
+GetObjects, args: 1 
+GetObjectsList, args: 1 
+GetRemoteBuildMode, args: 0 
+IsGearTypeAllowed, args: 1 
+IsLoaded, args: 0 
+Load, args: 1 
+OpenScreenshotsFolder, args: 0 
+OpenVideosFolder, args: 0 
+ReportInGoogleAnalytics, args: 4 
+SetFastFlagForTesting, args: 2 
+SetFastIntForTesting, args: 2 
+SetFastStringForTesting, args: 2 
+SetPlaceId, args: 1 
+SetUniverseId, args: 1 
+Shutdown, args: 0 
+GetObjectsAsync, args: 1 
+HttpGetAsync, args: 2 
+HttpPostAsync, args: 4 
+InsertObjectsAndJoinIfLegacyAsync, args: 1 
+SavePlace, args: 1 
+||GenericSettings||
+
+||AnalysticsSettings||
+
+||GlobalSettings||
+
+GetFFlag, args: 1 
+GetFVariable, args: 1 
+||UserSettings||
+
+IsUserFeatureEnabled, args: 1 
+Reset, args: 0 
+||SessionService||
+
+GetCreatedTimestampUtcMs, args: 1 
+GetMetadata, args: 2 
+GetRootSID, args: 0 
+RemoveMetadata, args: 2 
+RemoveSession, args: 1 
+ReplaceSession, args: 2 
+SessionExists, args: 1 
+SetMetadata, args: 3 
+SetSession, args: 3 
+||Sky||
+
+||Smoke||
+
+||SocialService||
+
+InvokeGameInvitePromptClosed, args: 2 
+PromptGameInvite, args: 1 
+CanSendGameInviteAsync, args: 1 
+||Sound||
+
+Pause, args: 0 
+Play, args: 0 
+Resume, args: 0 
+Stop, args: 0 
+pause, args: 0 
+play, args: 0 
+stop, args: 0 
+||SoundEffect||
+
+||ChorusSoundEffect||
+
+||CompressorSoundEffect||
+
+||CustomDspSoundEffect||
+
+||ChannelSelectorSoundEffect||
+
+||DistortionSoundEffect||
+
+||EchoSoundEffect||
+
+||EqualizerSoundEffect||
+
+||FlangeSoundEffect||
+
+||PitchShiftSoundEffect||
+
+||ReverbSoundEffect||
+
+||TremoloSoundEffect||
+
+||SoundGroup||
+
+||SoundService||
+
+BeginRecording, args: 0 
+GetListener, args: 0 
+GetOutputDevice, args: 0 
+GetOutputDevices, args: 0 
+GetSoundMemoryData, args: 0 
+PlayLocalSound, args: 1 
+SetListener, args: 2 
+SetOutputDevice, args: 2 
+SetRecordingDevice, args: 1 
+EndRecording, args: 0 
+GetRecordingDevices, args: 0 
+||Sparkles||
+
+||SpawnerService||
+
+||Speaker||
+
+||StackFrame||
+
+||StandalonePluginScripts||
+
+||StarterGear||
+
+||StarterPack||
+
+||StarterPlayer||
+
+ClearDefaults, args: 0 
+||StarterPlayerScripts||
+
+||StarterCharacterScripts||
+
+||Stats||
+
+GetBrowserTrackerId, args: 0 
+GetMemoryUsageMbForTag, args: 1 
+GetTotalMemoryUsageMb, args: 0 
+GetPaginatedMemoryByTexture, args: 3 
+||StatsItem||
+
+GetValue, args: 0 
+GetValueString, args: 0 
+||RunningAverageItemDouble||
+
+||RunningAverageItemInt||
+
+||RunningAverageTimeIntervalItem||
+
+||TotalCountTimeIntervalItem||
+
+||StopWatchReporter||
+
+FinishTask, args: 1 
+SendReport, args: 1 
+StartTask, args: 2 
+||Studio||
+
+GetAvailableThemes, args: 0 
+||StudioAssetService||
+
+SerializeInstances, args: 1 
+||StudioData||
+
+||StudioDeviceEmulatorService||
+
+EmulatePCDeviceWithResolution, args: 2 
+GetCurrentDeviceId, args: 0 
+GetCurrentOrientation, args: 0 
+HasDeviceWithId, args: 1 
+SetCurrentDeviceId, args: 1 
+SetCurrentOrientation, args: 1 
+||StudioPublishService||
+
+PublishAs, args: 5 
+||StudioScriptDebugEventListener||
+
+||StudioService||
+
+AnimationIdSelected, args: 1 
+ConvertToPackageUpload, args: 1 
+CopyToClipboard, args: 1 
+DEPRECATED_SetDocumentDisplayName, args: 1 
+EmitPlacePublishedSignal, args: 0 
+GetBadgeConfigureUrl, args: 1 
+GetBadgeUploadUrl, args: 0 
+GetClassIcon, args: 1 
+GetPlaceIsPersistedToCloud, args: 0 
+GetResourceByCategory, args: 1 
+GetStartupAssetId, args: 0 
+GetStartupPluginId, args: 0 
+GetTermsOfUseUrl, args: 0 
+GetUserId, args: 0 
+GetUserIsInTeamCreateToggleRamp, args: 0 
+GizmoRaycast, args: 3 
+HasInternalPermission, args: 0 
+IsPluginInstalled, args: 1 
+IsPluginUpToDate, args: 2 
+OpenInBrowser_DONOTUSE, args: 1 
+PublishAs, args: 3 
+RefreshDocumentDisplayName, args: 0 
+RequestClose, args: 1 
+SerializeInstances, args: 1 
+SetPluginEnabled, args: 2 
+SetTurnOnTeamCreateOnPublish, args: 1 
+SetUniverseDisplayName, args: 1 
+ShowPlaceVersionHistoryDialog, args: 1 
+ShowPublishToRoblox, args: 0 
+ShowSaveOrPublishPlaceToRoblox, args: 3 
+UninstallPlugin, args: 1 
+UpdatePluginManagement, args: 0 
+PromptImportFile, args: 1 
+PromptImportFiles, args: 1 
+TryInstallPlugin, args: 2 
+||StudioTheme||
+
+GetColor, args: 2 
+||SurfaceAppearance||
+
+||TaskScheduler||
+
+||Team||
+
+GetPlayers, args: 0 
+||Teams||
+
+GetTeams, args: 0 
+RebalanceTeams, args: 0 
+||TeleportAsyncResult||
+
+||TeleportOptions||
+
+GetTeleportData, args: 0 
+SetTeleportData, args: 1 
+||TeleportService||
+
+GetArrivingTeleportGui, args: 0 
+GetLocalPlayerTeleportData, args: 0 
+GetTeleportSetting, args: 1 
+SetTeleportGui, args: 1 
+SetTeleportSetting, args: 2 
+Teleport, args: 4 
+TeleportCancel, args: 0 
+TeleportToPlaceInstance, args: 6 
+TeleportToPrivateServer, args: 6 
+TeleportToSpawnByName, args: 5 
+GetPlayerPlaceInstanceAsync, args: 1 
+ReserveServer, args: 1 
+TeleportAsync, args: 3 
+TeleportPartyAsync, args: 4 
+||TemporaryCageMeshProvider||
+
+||TemporaryScriptService||
+
+||TerrainRegion||
+
+ConvertToSmooth, args: 0 
+||TestService||
+
+Check, args: 4 
+Checkpoint, args: 3 
+Done, args: 0 
+Error, args: 3 
+Fail, args: 3 
+Message, args: 3 
+Require, args: 4 
+ScopeTime, args: 0 
+Warn, args: 4 
+isFeatureEnabled, args: 1 
+Run, args: 0 
+||TextBoxService||
+
+||TextChannel||
+
+DisplaySystemMessage, args: 2 
+AddUserAsync, args: 1 
+||TextChatService||
+
+||TextFilterResult||
+
+GetChatForUserAsync, args: 1 
+GetNonChatStringForBroadcastAsync, args: 0 
+GetNonChatStringForUserAsync, args: 1 
+||TextService||
+
+GetTextSize, args: 4 
+SetResolutionScale, args: 1 
+FilterStringAsync, args: 3 
+||TextSource||
+
+||ThirdPartyUserService||
+
+GetUserPlatformId, args: 0 
+GetUserPlatformName, args: 0 
+HaveActiveUser, args: 0 
+ReturnToEngagement, args: 0 
+ShowAccountPicker, args: 0 
+RegisterActiveUser, args: 1 
+||ThreadState||
+
+GetFrame, args: 1 
+||TimerService||
+
+||ToastNotificationService||
+
+HideNotification, args: 1 
+ShowNotification, args: 2 
+||ToolboxService||
+
+||TouchInputService||
+
+||TouchTransmitter||
+
+||TracerService||
+
+FinishSpan, args: 1 
+StartSpan, args: 2 
+||Trail||
+
+Clear, args: 0 
+||Translator||
+
+FormatByKey, args: 2 
+RobloxOnlyTranslate, args: 2 
+Translate, args: 2 
+||TweenBase||
+
+Cancel, args: 0 
+Pause, args: 0 
+Play, args: 0 
+||Tween||
+
+||TweenService||
+
+Create, args: 3 
+GetValue, args: 3 
+||UGCValidationService||
+
+GetMeshTriCountSync, args: 1 
+GetMeshVertsSync, args: 1 
+GetTextureSizeSync, args: 1 
+SetMeshIdBlocking, args: 2 
+FetchAssetWithFormat, args: 2 
+GetMeshTriCount, args: 1 
+GetMeshVertColors, args: 1 
+GetMeshVerts, args: 1 
+GetTextureSize, args: 1 
+||UIBase||
+
+||UIComponent||
+
+||UIConstraint||
+
+||UIAspectRatioConstraint||
+
+||UISizeConstraint||
+
+||UITextSizeConstraint||
+
+||UICorner||
+
+||UIGradient||
+
+||UILayout||
+
+||UIGridStyleLayout||
+
+ApplyLayout, args: 0 
+SetCustomSortFunction, args: 1 
+||UIGridLayout||
+
+||UIListLayout||
+
+||UIPageLayout||
+
+JumpTo, args: 1 
+JumpToIndex, args: 1 
+Next, args: 0 
+Previous, args: 0 
+||UITableLayout||
+
+||UIPadding||
+
+||UIScale||
+
+||UIStroke||
+
+||UnvalidatedAssetService||
+
+AppendTempAssetId, args: 5 
+AppendVantagePoint, args: 4 
+UpgradeTempAssetId, args: 3 
+||UserGameSettings||
+
+GetCameraYInvertValue, args: 0 
+GetOnboardingCompleted, args: 1 
+GetTutorialState, args: 1 
+InFullScreen, args: 0 
+InStudioMode, args: 0 
+ResetOnboardingCompleted, args: 1 
+SetCameraYInvertVisible, args: 0 
+SetGamepadCameraSensitivityVisible, args: 0 
+SetOnboardingCompleted, args: 1 
+SetTutorialState, args: 2 
+||UserInputService||
+
+GamepadSupports, args: 2 
+GetConnectedGamepads, args: 0 
+GetDeviceAcceleration, args: 0 
+GetDeviceGravity, args: 0 
+GetDeviceRotation, args: 0 
+GetDeviceType, args: 0 
+GetFocusedTextBox, args: 0 
+GetGamepadConnected, args: 1 
+GetGamepadState, args: 1 
+GetKeysPressed, args: 0 
+GetLastInputType, args: 0 
+GetMouseButtonsPressed, args: 0 
+GetMouseDelta, args: 0 
+GetMouseLocation, args: 0 
+GetNavigationGamepads, args: 0 
+GetPlatform, args: 0 
+GetStringForKeyCode, args: 1 
+GetSupportedGamepadKeyCodes, args: 1 
+GetUserCFrame, args: 1 
+IsGamepadButtonDown, args: 2 
+IsKeyDown, args: 1 
+IsMouseButtonPressed, args: 1 
+IsNavigationGamepad, args: 1 
+RecenterUserHeadCFrame, args: 0 
+SendAppUISizes, args: 4 
+SetNavigationGamepad, args: 2 
+||UserService||
+
+GetUserInfosByUserIdsAsync, args: 1 
+||VRService||
+
+GetTouchpadMode, args: 1 
+GetUserCFrame, args: 1 
+GetUserCFrameEnabled, args: 1 
+RecenterUserHeadCFrame, args: 0 
+RequestNavigation, args: 2 
+SetTouchpadMode, args: 2 
+||ValueBase||
+
+||BinaryStringValue||
+
+||BoolValue||
+
+||BrickColorValue||
+
+||CFrameValue||
+
+||Color3Value||
+
+||DoubleConstrainedValue||
+
+||IntConstrainedValue||
+
+||IntValue||
+
+||NumberValue||
+
+||ObjectValue||
+
+||RayValue||
+
+||StringValue||
+
+||Vector3Value||
+
+||Vector3Curve||
+
+GetValueAtTime, args: 1 
+X, args: 0 
+Y, args: 0 
+Z, args: 0 
+||VersionControlService||
+
+||VirtualInputManager||
+
+Dump, args: 0 
+HandleGamepadAxisInput, args: 5 
+HandleGamepadButtonInput, args: 3 
+HandleGamepadConnect, args: 1 
+HandleGamepadDisconnect, args: 1 
+SendAccelerometerEvent, args: 3 
+SendGravityEvent, args: 3 
+SendGyroscopeEvent, args: 4 
+SendKeyEvent, args: 4 
+SendMouseButtonEvent, args: 6 
+SendMouseMoveEvent, args: 3 
+SendMouseWheelEvent, args: 4 
+SendTextInputCharacterEvent, args: 2 
+SendTouchEvent, args: 4 
+SetInputTypesToIgnore, args: 1 
+StartPlaying, args: 1 
+StartPlayingJSON, args: 1 
+StartRecording, args: 0 
+StopPlaying, args: 0 
+StopRecording, args: 0 
+sendRobloxEvent, args: 3 
+sendThemeChangeEvent, args: 1 
+WaitForInputEventsProcessed, args: 0 
+||VirtualUser||
+
+Button1Down, args: 2 
+Button1Up, args: 2 
+Button2Down, args: 2 
+Button2Up, args: 2 
+CaptureController, args: 0 
+ClickButton1, args: 2 
+ClickButton2, args: 2 
+MoveMouse, args: 2 
+SetKeyDown, args: 1 
+SetKeyUp, args: 1 
+StartRecording, args: 0 
+StopRecording, args: 0 
+TypeKey, args: 1 
+||Visit||
+
+||VoiceChannel||
+
+||VoiceChatInternal||
+
+GetAndClearCallFailureMessage, args: 0 
+GetAudioProcessingSettings, args: 0 
+GetGroupId, args: 0 
+GetMicDevices, args: 0 
+GetParticipants, args: 0 
+GetSpeakerDevices, args: 0 
+GetVoiceChatApiVersion, args: 0 
+GetVoiceChatAvailable, args: 0 
+IsContextVoiceEnabled, args: 0 
+IsPublishPaused, args: 0 
+IsSubscribePaused, args: 1 
+JoinByGroupId, args: 2 
+JoinByGroupIdToken, args: 2 
+Leave, args: 0 
+PublishPause, args: 1 
+SetMicDevice, args: 2 
+SetSpeakerDevice, args: 2 
+SubscribeBlock, args: 1 
+SubscribePause, args: 2 
+SubscribePauseAll, args: 1 
+SubscribeUnblock, args: 1 
+IsVoiceEnabledForUserIdAsync, args: 1 
+||VoiceChatService||
+
+IsVoiceEnabledForUserIdAsync, args: 1 
+||VoiceSource||
+
+||WeldConstraint||
+
+]]--
